@@ -1,1 +1,339 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>메디잡 개원병원 현황</title><style>body{font-family:"Malgun Gothic",sans-serif;background:#f4f6fa;margin:0;padding:20px}.hd{background:linear-gradient(120deg,#0d3e8a,#2196f3);color:#fff;padding:16px 24px;border-radius:8px;margin-bottom:16px}.hd h1{font-size:18px;font-weight:700}.hd p{font-size:12px;opacity:.8;margin-top:4px}.ld{text-align:center;padding:60px;color:#8899aa;font-size:14px}table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.1)}th{background:#1558b0;color:#fff;padding:9px 10px;text-align:left;font-size:12px;white-space:nowrap}td{padding:8px 10px;border-bottom:1px solid #e8ecf2;font-size:13px}tr:hover{background:#e8f0fb}tr.cl{opacity:.5}.br{background:#e8f0fb;color:#1558b0;border-radius:4px;padding:2px 7px;font-size:11px;font-weight:600}.j{background:#f0f4ff;color:#3d5afe;border-radius:4px;padding:1px 5px;font-size:11px;margin:1px 1px 0 0;display:inline-block}.ac{background:#e8f5e9;color:#2e7d32;border-radius:4px;padding:2px 6px;font-size:11px}.cl2{background:#e8ecf2;color:#8899aa;border-radius:4px;padding:2px 6px;font-size:11px}a{color:#1558b0;font-weight:700;text-decoration:none}a:hover{color:#d93025}</style></head><body><div class="hd"><h1>🏥 메디잡 개원병원 현황</h1><p>공고제목 "개원" 포함 · 병원별 중복 제거 · 매일 자동 갱신 · 갱신일: <span id="u">-</span></p></div><div id="r"><div class="ld">⏳ 로딩 중...</div></div><script>(async()=>{try{const m=await(await fetch("data/master.json?t="+Date.now())).json();const G={"종로구":"중부지점","중구":"중부지점","용산구":"중부지점","성동구":"중부지점","광진구":"중부지점","동대문구":"중부지점","중랑구":"북부지점","성북구":"북부지점","강북구":"북부지점","도봉구":"북부지점","노원구":"북부지점","은평구":"서부지점","서대문구":"서부지점","마포구":"서부지점","양천구":"남부1지점","구로구":"남부1지점","영등포구":"남부1지점","광명시":"남부1지점","금천구":"남부2지점","동작구":"남부2지점","관악구":"남부2지점","강서구":"일산지점","서초구":"서초지점","강남구":"강남지점","송파구":"강동지점","강동구":"강동지점","하남시":"강동지점","미추홀구":"인천1지점","연수구":"인천1지점","남동구":"인천1지점","부평구":"인천2지점","부천시":"인천2지점","계양구":"인천3지점","서구":"인천3지점","강화군":"인천3지점","김포시":"인천3지점","성남시":"성남지점","수원시":"수원지점","의정부시":"의정부지점","안양시":"안양지점","시흥시":"안양지점","군포시":"안양지점","의왕시":"안양지점","평택시":"동탄지점","오산시":"동탄지점","화성시":"동탄지점","안산시":"안산지점","고양시":"일산지점","파주시":"일산지점","구리시":"남양주지점","남양주시":"남양주지점","용인시":"용인지점","이천시":"용인지점"};const br=r=>{if(!r)return"-";for(const[k,v]of Object.entries(G))if(r.includes(k))return v;return"-";};const tp=h=>/요양병원/.test(h)?"요양병원":/한의원/.test(h)?"한의원":/의원/.test(h)?"의원":/병원/.test(h)?"병원":"기타";const e=s=>(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");document.getElementById("u").textContent=m.last_updated||"-";const D=Object.values(m.hospitals||{}).sort((a,b)=>a.status!==b.status?a.status==="active"?-1:1:(b.first_seen||"").localeCompare(a.first_seen||""));const rows=D.map((d,i)=>{const b=br(d.region),t=tp(d.hospital),s=d.status==="active";const tc=t==="의원"?"background:#fff3e0;color:#c96400":t==="병원"?"background:#e8f5e9;color:#2e7d32":t==="요양병원"?"background:#fce4ec;color:#c62828":t==="한의원"?"background:#e8eaf6;color:#3949ab":"background:#e8ecf2;color:#4a5568";return"<tr class=\""+(!s?"cl":"")+"\">"+"<td style=\"text-align:center;color:#8899aa\">"+(i+1)+"</td>"+"<td><a href=\""+e(d.url)+"\" target=\"_blank\">"+e(d.hospital)+"</a></td>"+"<td><span class=\"br\">"+e(b)+"</span></td>"+"<td><span style=\"border-radius:4px;padding:2px 6px;font-size:11px;font-weight:600;"+tc+"\">"+"<"+"/span></td>".replace("</span>",e(t)+"</span>")+"<td style=\"font-size:12px;color:#4a5568\">"+e(d.region)+"</td>"+"<td style=\"font-size:12.5px\">"+e(d.title)+"</td>"+"<td>"+(d.jobs||[]).map(j=>"<span class=\"j\">"+e(j)+"</span>").join("")+"</td>"+"<td style=\"text-align:center\">"+(d.count||1)+"</td>"+"<td><span class=\""+(s?"ac":"cl2")+"\">"+(s?"채용중":"마감")+"</span></td>"+"<td style=\"font-size:11.5px;color:#4a5568\">"+e(d.first_seen||"")+"</td>"+"<td style=\"font-size:11.5px;color:#4a5568\">"+e(d.closed_date||"-")+"</td></tr>";}).join("");document.getElementById("r").innerHTML="<table><thead><tr><th>#</th><th>병원명</th><th>담당지점</th><th>종별</th><th>지역</th><th>공고제목</th><th>구인직종</th><th>건</th><th>상태</th><th>최초등록</th><th>마감일</th></tr></thead><tbody>"+rows+"</tbody></table>";}catch(e){document.getElementById("r").innerHTML="<div class=\"ld\">⚠️ "+e.message+"<br><br>Actions 탭에서 Run workflow를 실행해 주세요.</div>";}})();</script></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>메디잡 개원병원 현황</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --blue:#1558b0;--blue-lt:#e8f0fb;--blue-md:#3d7de8;
+  --red:#d93025;--green:#0a7c42;--orange:#c96400;
+  --gray0:#f4f6fa;--gray1:#e8ecf2;--gray2:#c8d0dc;--gray3:#8899aa;--gray4:#4a5568;
+  --white:#fff;--black:#1a2233;--shadow:0 2px 12px rgba(21,88,176,.10);
+}
+body{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;font-size:13px;background:var(--gray0);color:var(--black)}
+
+/* 헤더 */
+.header{background:linear-gradient(120deg,#0d3e8a 0%,#1a6fc4 60%,#2196f3 100%);color:#fff;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 16px rgba(13,62,138,.25)}
+.header-left{display:flex;align-items:center;gap:12px}
+.header-icon{font-size:28px}
+.header-title{font-size:18px;font-weight:700}
+.header-sub{font-size:11px;color:rgba(255,255,255,.75);margin-top:3px}
+.total-badge{background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.35);border-radius:24px;padding:6px 16px;font-size:13px;font-weight:700}
+
+/* 탭 */
+.nav{background:var(--white);border-bottom:2px solid var(--blue);padding:0 24px;display:flex;gap:2px;position:sticky;top:0;z-index:200;box-shadow:0 2px 10px rgba(0,0,0,.07);overflow-x:auto}
+.nav-tab{padding:10px 18px 8px;cursor:pointer;font-size:13px;font-weight:600;color:var(--gray3);border-bottom:3px solid transparent;margin-bottom:-2px;transition:color .15s,background .15s;user-select:none;white-space:nowrap;display:flex;align-items:center;gap:5px}
+.nav-tab:hover{color:var(--blue);background:var(--blue-lt)}
+.nav-tab.active{color:var(--blue);border-bottom-color:var(--blue);background:var(--blue-lt)}
+.nav-badge{background:var(--gray2);color:var(--gray4);border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700}
+.nav-tab.active .nav-badge{background:var(--blue);color:#fff}
+
+/* 툴바 */
+.toolbar{max-width:1400px;margin:14px auto 0;padding:0 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.filter-group{display:flex;align-items:center;gap:8px;background:var(--white);border:1.5px solid var(--gray2);border-radius:8px;padding:6px 12px;box-shadow:var(--shadow)}
+.filter-label{font-size:12px;font-weight:600;color:var(--gray3);white-space:nowrap}
+select.filter-sel{border:none;outline:none;font-size:13px;font-family:inherit;color:var(--black);background:transparent;cursor:pointer;min-width:120px}
+.search-wrap{position:relative}
+.search-wrap .ico{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--gray3);pointer-events:none}
+.search-input{border:1.5px solid var(--gray2);border-radius:7px;padding:8px 12px 8px 30px;font-size:13px;width:220px;font-family:inherit;outline:none;background:var(--white)}
+.search-input:focus{border-color:var(--blue-md);box-shadow:0 0 0 3px rgba(61,125,232,.12)}
+.info-text{margin-left:auto;font-size:11px;color:var(--gray3)}
+#updateTime{font-weight:600;color:var(--blue)}
+
+/* 통계 */
+.stats-bar{max-width:1400px;margin:10px auto 0;padding:0 20px;display:flex;gap:8px;flex-wrap:wrap}
+.stat-card{background:var(--white);border-radius:8px;padding:10px 16px;box-shadow:var(--shadow);display:flex;align-items:center;gap:10px}
+.stat-num{font-size:22px;font-weight:700;color:var(--blue)}
+.stat-label{font-size:12px;font-weight:600;color:var(--gray4)}
+.stat-info{font-size:11px;color:var(--gray3)}
+
+/* 컨텐츠 */
+.content{max-width:1400px;margin:14px auto 40px;padding:0 20px}
+.sector{display:none}.sector.active{display:block}
+.sector-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.sector-label{font-size:15px;font-weight:700;color:var(--blue)}
+.sector-cnt{background:var(--red);color:#fff;border-radius:12px;padding:2px 11px;font-size:11.5px;font-weight:700}
+
+/* 테이블 */
+.tbl-wrap{border-radius:10px;overflow:hidden;box-shadow:var(--shadow);background:var(--white)}
+table{width:100%;border-collapse:collapse}
+thead tr{background:var(--blue)}
+thead th{padding:9px 10px;text-align:left;font-size:12px;font-weight:600;color:#fff;white-space:nowrap}
+tbody tr{border-bottom:1px solid var(--gray1);transition:background .12s}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:var(--blue-lt)}
+tbody tr.is-closed{opacity:.5}
+tbody td{padding:8px 10px;vertical-align:middle;line-height:1.4}
+.td-no{width:34px;text-align:center;color:var(--gray3);font-size:12px}
+.hosp-link{color:var(--blue);text-decoration:none;font-weight:700}
+.hosp-link:hover{color:var(--red);text-decoration:underline}
+.branch-tag{display:inline-block;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:11px;font-weight:600;white-space:nowrap}
+.branch-tag.none{background:#f0f0f0;color:var(--gray3)}
+.type-tag{display:inline-block;border-radius:5px;padding:2px 7px;font-size:11px;font-weight:600;white-space:nowrap}
+.type-의원{background:#fff3e0;color:#c96400}
+.type-병원{background:#e8f5e9;color:#2e7d32}
+.type-요양병원{background:#fce4ec;color:#c62828}
+.type-한의원{background:#e8eaf6;color:#3949ab}
+.type-기타{background:var(--gray1);color:var(--gray4)}
+.job-tag{display:inline-block;background:#f0f4ff;color:#3d5afe;border-radius:4px;padding:1px 6px;font-size:11px;margin:1px 2px 1px 0}
+.cnt-badge{background:var(--gray1);color:var(--gray4);border-radius:10px;padding:1px 7px;font-size:11px;font-weight:600;text-align:center}
+.cnt-badge.multi{background:#fff3e0;color:#c96400}
+.status-tag{display:inline-block;border-radius:5px;padding:2px 7px;font-size:11px;font-weight:600}
+.status-active{background:#e8f5e9;color:#2e7d32}
+.status-closed{background:var(--gray1);color:var(--gray3)}
+.date-cell{font-size:11.5px;color:var(--gray4)}
+.no-result{text-align:center;padding:36px;color:var(--gray3);font-size:14px;display:none}
+.footer-note{text-align:right;font-size:11px;color:var(--gray3);margin-top:14px}
+
+/* 로딩 */
+.loading-wrap{text-align:center;padding:60px;color:var(--gray3)}
+.loading-spinner{width:36px;height:36px;border:4px solid var(--gray1);border-top-color:var(--blue);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 14px}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="header-icon">🏥</div>
+    <div>
+      <div class="header-title">메디잡 개원병원 현황</div>
+      <div class="header-sub">공고제목 "개원" 포함 · 병원별 중복제거 · 지점별 분류 · 매일 자동 갱신</div>
+    </div>
+  </div>
+  <div class="total-badge" id="totalBadge">로딩중...</div>
+</div>
+
+<div class="nav">
+  <div class="nav-tab active" data-sido="전체" onclick="switchTab(this)">전체 <span class="nav-badge" id="cnt-전체">-</span></div>
+  <div class="nav-tab" data-sido="서울" onclick="switchTab(this)">서울 <span class="nav-badge" id="cnt-서울">-</span></div>
+  <div class="nav-tab" data-sido="경기" onclick="switchTab(this)">경기 <span class="nav-badge" id="cnt-경기">-</span></div>
+  <div class="nav-tab" data-sido="인천" onclick="switchTab(this)">인천 <span class="nav-badge" id="cnt-인천">-</span></div>
+  <div class="nav-tab" data-sido="기타" onclick="switchTab(this)">기타 <span class="nav-badge" id="cnt-기타">-</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="filter-group">
+    <span class="filter-label">🏢 지점</span>
+    <select class="filter-sel" id="branchFilter" onchange="applyFilters()">
+      <option value="">전체 지점</option>
+      <option>강남지점</option><option>강동지점</option><option>강릉지점</option>
+      <option>광주1지점</option><option>광주2출장소</option><option>김해 출장소</option>
+      <option>남부1지점</option><option>남부2지점</option><option>남양주지점</option>
+      <option>대구1지점</option><option>대구2지점</option><option>대구3지점</option>
+      <option>대전1지점</option><option>대전2지점</option><option>동탄지점</option>
+      <option>목포지점</option><option>부산1지점</option><option>부산2지점</option>
+      <option>부산3지점</option><option>부산4출장소</option><option>북부지점</option>
+      <option>서부지점</option><option>서산 출장소</option><option>서초지점</option>
+      <option>성남지점</option><option>수원지점</option><option>순천지점</option>
+      <option>안동지점</option><option>안산지점</option><option>안양지점</option>
+      <option>용인지점</option><option>울산지점</option><option>원주출장소</option>
+      <option>의정부지점</option><option>인천1지점</option><option>인천2지점</option>
+      <option>인천3지점</option><option>일산지점</option><option>전주지점</option>
+      <option>제주지점</option><option>중부지점</option><option>진주지점</option>
+      <option>창원지점</option><option>천안지점</option><option>청주지점</option>
+      <option>춘천 출장소</option><option>통영지점</option><option>포항지점</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">🏷 종별</span>
+    <select class="filter-sel" id="typeFilter" onchange="applyFilters()">
+      <option value="">전체 종별</option>
+      <option>의원</option><option>병원</option><option>요양병원</option><option>한의원</option><option>기타</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">📋 상태</span>
+    <select class="filter-sel" id="statusFilter" onchange="applyFilters()">
+      <option value="">전체</option>
+      <option value="active">채용중</option>
+      <option value="closed">마감</option>
+    </select>
+  </div>
+  <div class="search-wrap">
+    <span class="ico">🔍</span>
+    <input class="search-input" id="searchInput" type="text" placeholder="병원명 · 지역명 · 직종 검색..." oninput="applyFilters()">
+  </div>
+  <span class="info-text">📅 최종 갱신: <span id="updateTime">-</span></span>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-card"><div class="stat-num" id="s-total">-</div><div><div class="stat-label">전체 병원</div><div class="stat-info">전체 누적</div></div></div>
+  <div class="stat-card"><div class="stat-num" id="s-active" style="color:var(--green)">-</div><div><div class="stat-label">채용중</div><div class="stat-info">오늘 기준</div></div></div>
+  <div class="stat-card"><div class="stat-num" id="s-closed" style="color:var(--gray3)">-</div><div><div class="stat-label">채용 마감</div><div class="stat-info">이력 보존</div></div></div>
+  <div class="stat-card"><div class="stat-num" id="s-new" style="color:var(--orange)">-</div><div><div class="stat-label">신규 등록</div><div class="stat-info">7일내</div></div></div>
+</div>
+
+<div class="content">
+  <div class="sector active" id="sector-전체">
+    <div class="sector-head"><div class="sector-label">📋 전체</div><div class="sector-cnt" id="lbl-전체">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-전체"><div class="loading-wrap"><div class="loading-spinner"></div>데이터 로딩중...</div></div>
+    <div class="no-result" id="nr-전체">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-서울">
+    <div class="sector-head"><div class="sector-label">📍 서울</div><div class="sector-cnt" id="lbl-서울">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-서울"></div>
+    <div class="no-result" id="nr-서울">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-경기">
+    <div class="sector-head"><div class="sector-label">📍 경기</div><div class="sector-cnt" id="lbl-경기">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-경기"></div>
+    <div class="no-result" id="nr-경기">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-인천">
+    <div class="sector-head"><div class="sector-label">📍 인천</div><div class="sector-cnt" id="lbl-인천">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-인천"></div>
+    <div class="no-result" id="nr-인천">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-기타">
+    <div class="sector-head"><div class="sector-label">📍 기타</div><div class="sector-cnt" id="lbl-기타">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-기타"></div>
+    <div class="no-result" id="nr-기타">검색 결과가 없습니다.</div>
+  </div>
+  <div class="footer-note">※ medijob.cc 공고 "개원" 포함 · 병원별 중복제거 · 지점별 분류 · GitHub Actions 자동 갱신</div>
+</div>
+
+<script>
+const SIDOS = ['전체','서울','경기','인천','기타'];
+let allData = [];
+
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function getSido(region) {
+  for (const s of ['서울','경기','인천','부산','대구','대전','광주','울산'])
+    if ((region||'').startsWith(s)) return s;
+  return '기타';
+}
+
+function makeTable(data) {
+  if (!data.length) return '';
+  const rows = data.map((d, i) => {
+    const branch = d.branch || '-';
+    const status = d.status === 'active' ? 'active' : 'closed';
+    const jobTags = (d.jobs||[]).map(j=>`<span class="job-tag">${esc(j)}</span>`).join('');
+    const cntBadge = d.count > 1
+      ? `<span class="cnt-badge multi">${d.count}</span>`
+      : `<span class="cnt-badge">${d.count||1}</span>`;
+    const statusTag = status === 'active'
+      ? '<span class="status-tag status-active">채용중</span>'
+      : '<span class="status-tag status-closed">마감</span>';
+    return `<tr class="${status==='closed'?'is-closed':''}" data-branch="${esc(branch)}" data-type="${esc(d.type||'')}" data-sido="${esc(getSido(d.region))}" data-status="${status}">
+      <td class="td-no">${i+1}</td>
+      <td><a class="hosp-link" href="${esc(d.url)}" target="_blank">${esc(d.hospital)}</a></td>
+      <td><span class="branch-tag ${branch==='-'?'none':''}">${esc(branch)}</span></td>
+      <td><span class="type-tag type-${esc(d.type||'기타')}">${esc(d.type||'기타')}</span></td>
+      <td class="date-cell">${esc(d.region)}</td>
+      <td style="font-size:12.5px">${esc(d.title)}</td>
+      <td>${jobTags||'<span style="color:var(--gray3);font-size:11px">-</span>'}</td>
+      <td>${cntBadge}</td>
+      <td>${statusTag}</td>
+      <td class="date-cell">${esc(d.first_seen||'')}</td>
+      <td class="date-cell">${esc(d.closed_date||'-')}</td>
+    </tr>`;
+  }).join('');
+
+  return `<table>
+    <thead><tr>
+      <th class="td-no">#</th>
+      <th style="min-width:145px">병원명</th>
+      <th style="width:105px">담당지점</th>
+      <th style="width:65px">종별</th>
+      <th style="width:120px">지역</th>
+      <th>공고제목</th>
+      <th style="width:130px">구인직종</th>
+      <th style="width:38px">건</th>
+      <th style="width:75px">상태</th>
+      <th style="width:85px">최초등록</th>
+      <th style="width:85px">마감일</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+function renderAll(hospitals) {
+  allData = Object.values(hospitals).sort((a,b)=>{
+    if (a.status !== b.status) return a.status==='active' ? -1 : 1;
+    return (b.first_seen||'').localeCompare(a.first_seen||'');
+  });
+
+  SIDOS.forEach(sido => {
+    const filtered = sido==='전체' ? allData : allData.filter(d => {
+      const ds = getSido(d.region);
+      if (sido === '기타') return !['서울','경기','인천','부산','대구','대전','광주','울산'].some(s=>(d.region||'').startsWith(s));
+      return ds === sido;
+    });
+    const wrap = document.getElementById('tbl-wrap-'+sido);
+    if (wrap) wrap.innerHTML = makeTable(filtered);
+    document.getElementById('cnt-'+sido).textContent = filtered.length;
+    document.getElementById('lbl-'+sido).textContent = filtered.length+'건';
+  });
+
+  const active  = allData.filter(d=>d.status==='active').length;
+  const closed  = allData.filter(d=>d.status==='closed').length;
+  const newCnt  = allData.filter(d=>{
+    if (!d.first_seen) return false;
+    return (new Date() - new Date(d.first_seen)) / 86400000 <= 7;
+  }).length;
+
+  document.getElementById('totalBadge').textContent = allData.length+'개 병원';
+  document.getElementById('s-total').textContent  = allData.length;
+  document.getElementById('s-active').textContent = active;
+  document.getElementById('s-closed').textContent = closed;
+  document.getElementById('s-new').textContent    = newCnt;
+  applyFilters();
+}
+
+function applyFilters() {
+  const branch = document.getElementById('branchFilter').value;
+  const type   = document.getElementById('typeFilter').value;
+  const status = document.getElementById('statusFilter').value;
+  const q      = document.getElementById('searchInput').value.trim().toLowerCase();
+  SIDOS.forEach(sido => {
+    const wrap = document.getElementById('tbl-wrap-'+sido);
+    if (!wrap) return;
+    let vis = 0;
+    wrap.querySelectorAll('tbody tr').forEach(tr => {
+      const ok = (!branch || tr.dataset.branch===branch) &&
+                 (!type   || tr.dataset.type===type) &&
+                 (!status || tr.dataset.status===status) &&
+                 (!q      || tr.textContent.toLowerCase().includes(q));
+      tr.style.display = ok ? '' : 'none';
+      if (ok) vis++;
+    });
+    document.getElementById('nr-'+sido).style.display = vis===0 ? 'block' : 'none';
+    document.getElementById('lbl-'+sido).textContent = vis+'건';
+    document.getElementById('cnt-'+sido).textContent = vis;
+  });
+}
+
+function switchTab(el) {
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.sector').forEach(s=>s.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('sector-'+el.dataset.sido).classList.add('active');
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('data/master.json?t=' + Date.now());
+    if (!res.ok) throw new Error('data/master.json 로드 실패: ' + res.status);
+    const master = await res.json();
+    document.getElementById('updateTime').textContent = master.last_updated || '-';
+    renderAll(master.hospitals || {});
+  } catch(e) {
+    document.getElementById('tbl-wrap-전체').innerHTML =
+      `<div style="text-align:center;padding:40px;color:#d93025">
+        ⚠️ 데이터를 불러오지 못했습니다.<br>
+        <small style="color:#8899aa">${e.message}</small>
+      </div>`;
+    console.error(e);
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
