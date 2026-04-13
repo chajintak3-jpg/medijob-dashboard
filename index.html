@@ -112,6 +112,10 @@ tbody td{padding:8px 10px;vertical-align:middle;line-height:1.4}
   <div class="nav-tab" data-sido="서울" onclick="switchTab(this)">서울 <span class="nav-badge" id="cnt-서울">-</span></div>
   <div class="nav-tab" data-sido="경기" onclick="switchTab(this)">경기 <span class="nav-badge" id="cnt-경기">-</span></div>
   <div class="nav-tab" data-sido="인천" onclick="switchTab(this)">인천 <span class="nav-badge" id="cnt-인천">-</span></div>
+  <div class="nav-tab" data-sido="부산·울산·경남" onclick="switchTab(this)">부산·경남 <span class="nav-badge" id="cnt-부산·울산·경남">-</span></div>
+  <div class="nav-tab" data-sido="대구·경북" onclick="switchTab(this)">대구·경북 <span class="nav-badge" id="cnt-대구·경북">-</span></div>
+  <div class="nav-tab" data-sido="대전·충청" onclick="switchTab(this)">대전·충청 <span class="nav-badge" id="cnt-대전·충청">-</span></div>
+  <div class="nav-tab" data-sido="광주·호남" onclick="switchTab(this)">광주·호남 <span class="nav-badge" id="cnt-광주·호남">-</span></div>
   <div class="nav-tab" data-sido="기타" onclick="switchTab(this)">기타 <span class="nav-badge" id="cnt-기타">-</span></div>
 </div>
 
@@ -188,6 +192,26 @@ tbody td{padding:8px 10px;vertical-align:middle;line-height:1.4}
     <div class="tbl-wrap" id="tbl-wrap-인천"></div>
     <div class="no-result" id="nr-인천">검색 결과가 없습니다.</div>
   </div>
+  <div class="sector" id="sector-부산·울산·경남">
+    <div class="sector-head"><div class="sector-label">📍 부산·울산·경남</div><div class="sector-cnt" id="lbl-부산·울산·경남">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-부산·울산·경남"></div>
+    <div class="no-result" id="nr-부산·울산·경남">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-대구·경북">
+    <div class="sector-head"><div class="sector-label">📍 대구·경북</div><div class="sector-cnt" id="lbl-대구·경북">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-대구·경북"></div>
+    <div class="no-result" id="nr-대구·경북">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-대전·충청">
+    <div class="sector-head"><div class="sector-label">📍 대전·충청</div><div class="sector-cnt" id="lbl-대전·충청">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-대전·충청"></div>
+    <div class="no-result" id="nr-대전·충청">검색 결과가 없습니다.</div>
+  </div>
+  <div class="sector" id="sector-광주·호남">
+    <div class="sector-head"><div class="sector-label">📍 광주·호남</div><div class="sector-cnt" id="lbl-광주·호남">-</div></div>
+    <div class="tbl-wrap" id="tbl-wrap-광주·호남"></div>
+    <div class="no-result" id="nr-광주·호남">검색 결과가 없습니다.</div>
+  </div>
   <div class="sector" id="sector-기타">
     <div class="sector-head"><div class="sector-label">📍 기타</div><div class="sector-cnt" id="lbl-기타">-</div></div>
     <div class="tbl-wrap" id="tbl-wrap-기타"></div>
@@ -197,14 +221,20 @@ tbody td{padding:8px 10px;vertical-align:middle;line-height:1.4}
 </div>
 
 <script>
-const SIDOS = ['전체','서울','경기','인천','기타'];
+const SIDOS = ['전체','서울','경기','인천','부산·울산·경남','대구·경북','대전·충청','광주·호남','기타'];
 let allData = [];
 
 function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 function getSido(region) {
-  for (const s of ['서울','경기','인천','부산','대구','대전','광주','울산'])
-    if ((region||'').startsWith(s)) return s;
+  const r = region || '';
+  if (r.startsWith('서울')) return '서울';
+  if (r.startsWith('경기')) return '경기';
+  if (r.startsWith('인천')) return '인천';
+  if (r.startsWith('부산') || r.startsWith('울산') || r.startsWith('경남') || r.startsWith('창원')) return '부산·울산·경남';
+  if (r.startsWith('대구') || r.startsWith('경북')) return '대구·경북';
+  if (r.startsWith('대전') || r.startsWith('충북') || r.startsWith('충남') || r.startsWith('세종')) return '대전·충청';
+  if (r.startsWith('광주') || r.startsWith('전북') || r.startsWith('전남')) return '광주·호남';
   return '기타';
 }
 
@@ -262,7 +292,7 @@ function renderAll(hospitals) {
   SIDOS.forEach(sido => {
     const filtered = sido==='전체' ? allData : allData.filter(d => {
       const ds = getSido(d.region);
-      if (sido === '기타') return !['서울','경기','인천','부산','대구','대전','광주','울산'].some(s=>(d.region||'').startsWith(s));
+      if (sido === '기타') return !['서울','경기','인천','부산','울산','경남','창원','대구','경북','대전','충북','충남','세종','광주','전북','전남'].some(s=>(d.region||'').startsWith(s));
       return ds === sido;
     });
     const wrap = document.getElementById('tbl-wrap-'+sido);
