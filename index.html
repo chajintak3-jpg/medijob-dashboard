@@ -2,123 +2,62 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>개원병원 현황</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --blue:#1558b0;--blue-lt:#e8f0fb;--blue-md:#3d7de8;
-  --red:#d93025;--green:#0a7c42;--orange:#c96400;
   --gray0:#f4f6fa;--gray1:#e8ecf2;--gray2:#c8d0dc;--gray3:#8899aa;--gray4:#4a5568;
-  --white:#fff;--black:#1a2233;--shadow:0 2px 12px rgba(21,88,176,.10);
+  --white:#fff;--black:#1a2233;
 }
 body{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;font-size:13px;background:var(--gray0);color:var(--black)}
-
-/* 헤더 */
-.header{background:linear-gradient(120deg,#0d3e8a 0%,#1a6fc4 60%,#2196f3 100%);color:#fff;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 16px rgba(13,62,138,.25)}
-.header-left{display:flex;align-items:center;gap:12px}
-.header-icon{font-size:28px}
-.header-title{font-size:18px;font-weight:700}
-.header-sub{font-size:11px;color:rgba(255,255,255,.75);margin-top:3px}
-.total-badge{background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.35);border-radius:24px;padding:6px 16px;font-size:13px;font-weight:700}
-
-/* 탭 */
+.header{background:linear-gradient(120deg,#0d3e8a 0%,#1a6fc4 60%,#2196f3 100%);color:#fff;padding:14px 28px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 16px rgba(13,62,138,.25)}
+.header-title{font-size:17px;font-weight:700}
+.total-badge{background:rgba(255,255,255,.2);border:1.5px solid rgba(255,255,255,.4);border-radius:20px;padding:5px 14px;font-size:13px;font-weight:700}
 .nav{background:var(--white);border-bottom:2px solid var(--blue);padding:0 24px;display:flex;gap:2px;position:sticky;top:0;z-index:200;box-shadow:0 2px 10px rgba(0,0,0,.07);overflow-x:auto}
-.nav-tab{padding:10px 18px 8px;cursor:pointer;font-size:13px;font-weight:600;color:var(--gray3);border-bottom:3px solid transparent;margin-bottom:-2px;transition:color .15s,background .15s;user-select:none;white-space:nowrap;display:flex;align-items:center;gap:5px}
+.nav-tab{padding:10px 16px 8px;cursor:pointer;font-size:13px;font-weight:600;color:var(--gray3);border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap;display:flex;align-items:center;gap:5px;transition:color .15s}
 .nav-tab:hover{color:var(--blue);background:var(--blue-lt)}
 .nav-tab.active{color:var(--blue);border-bottom-color:var(--blue);background:var(--blue-lt)}
 .nav-badge{background:var(--gray2);color:var(--gray4);border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700}
 .nav-tab.active .nav-badge{background:var(--blue);color:#fff}
-
-/* 툴바 */
 .toolbar{max-width:1400px;margin:14px auto 0;padding:0 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.filter-group{display:flex;align-items:center;gap:8px;background:var(--white);border:1.5px solid var(--gray2);border-radius:8px;padding:6px 12px;box-shadow:var(--shadow)}
-.filter-label{font-size:12px;font-weight:600;color:var(--gray3);white-space:nowrap}
-select.filter-sel{border:none;outline:none;font-size:13px;font-family:inherit;color:var(--black);background:transparent;cursor:pointer;min-width:120px}
+.filter-group{display:flex;align-items:center;gap:8px;background:var(--white);border:1.5px solid var(--gray2);border-radius:8px;padding:6px 12px}
+.filter-label{font-size:12px;font-weight:600;color:var(--gray3)}
+select.filter-sel{border:none;outline:none;font-size:13px;font-family:inherit;color:var(--black);background:transparent;cursor:pointer;min-width:110px}
 .search-wrap{position:relative}
-.search-wrap .ico{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--gray3);pointer-events:none}
-.search-input{border:1.5px solid var(--gray2);border-radius:7px;padding:8px 12px 8px 30px;font-size:13px;width:220px;font-family:inherit;outline:none;background:var(--white)}
-.search-input:focus{border-color:var(--blue-md);box-shadow:0 0 0 3px rgba(61,125,232,.12)}
-.info-text{margin-left:auto;font-size:11px;color:var(--gray3)}
-#updateTime{font-weight:600;color:var(--blue)}
-
-/* 통계 */
-.stats-bar{max-width:1400px;margin:10px auto 0;padding:0 20px;display:flex;gap:8px;flex-wrap:wrap}
-.stat-card{background:var(--white);border-radius:8px;padding:10px 16px;box-shadow:var(--shadow);display:flex;align-items:center;gap:10px}
-.stat-num{font-size:22px;font-weight:700;color:var(--blue)}
-.stat-label{font-size:12px;font-weight:600;color:var(--gray4)}
-.stat-info{font-size:11px;color:var(--gray3)}
-
-/* 컨텐츠 */
+.search-input{border:1.5px solid var(--gray2);border-radius:7px;padding:7px 12px 7px 30px;font-size:13px;width:200px;font-family:inherit;outline:none;background:var(--white)}
+.search-input:focus{border-color:var(--blue-md)}
+.search-ico{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--gray3);font-size:14px}
+.info-right{margin-left:auto;font-size:11px;color:var(--gray3)}
+.info-right span{font-weight:600;color:var(--blue)}
 .content{max-width:1400px;margin:14px auto 40px;padding:0 20px}
 .sector{display:none}.sector.active{display:block}
-.sector-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
-.sector-label{font-size:15px;font-weight:700;color:var(--blue)}
-.sector-cnt{background:var(--red);color:#fff;border-radius:12px;padding:2px 11px;font-size:11.5px;font-weight:700}
-
-/* 테이블 */
-.tbl-wrap{border-radius:10px;overflow:hidden;box-shadow:var(--shadow);background:var(--white)}
-table{width:100%;border-collapse:collapse}
-thead tr{background:var(--blue)}
-thead th{padding:9px 10px;text-align:left;font-size:12px;font-weight:600;color:#fff;white-space:nowrap}
+.sector-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.sector-label{font-size:14px;font-weight:700;color:var(--blue)}
+.sector-cnt{background:#e53935;color:#fff;border-radius:12px;padding:2px 10px;font-size:11px;font-weight:700}
+table{width:100%;border-collapse:collapse;background:var(--white);border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(21,88,176,.08)}
+thead tr{background:linear-gradient(90deg,#1558b0,#2196f3);color:#fff}
+th{padding:11px 10px;font-size:12px;font-weight:600;text-align:left;white-space:nowrap}
 tbody tr{border-bottom:1px solid var(--gray1);transition:background .12s}
-tbody tr:last-child{border-bottom:none}
 tbody tr:hover{background:var(--blue-lt)}
-tbody tr.is-closed{opacity:.5}
-tbody td{padding:8px 10px;vertical-align:middle;line-height:1.4}
-.td-no{width:34px;text-align:center;color:var(--gray3);font-size:12px}
-.hosp-link{color:var(--blue);text-decoration:none;font-weight:700}
-.hosp-link:hover{color:var(--red);text-decoration:underline}
-.branch-tag{display:inline-block;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:11px;font-weight:600;white-space:nowrap}
-.branch-tag.none{background:#f0f0f0;color:var(--gray3)}
-.type-tag{display:inline-block;border-radius:5px;padding:2px 7px;font-size:11px;font-weight:600;white-space:nowrap}
-.type-의원{background:#fff3e0;color:#c96400}
-.type-병원{background:#e8f5e9;color:#2e7d32}
-.type-요양병원{background:#fce4ec;color:#c62828}
-.type-한의원{background:#e8eaf6;color:#3949ab}
-.type-기타{background:var(--gray1);color:var(--gray4)}
-.job-tag{display:inline-block;background:#f0f4ff;color:#3d5afe;border-radius:4px;padding:1px 6px;font-size:11px;margin:1px 2px 1px 0}
-.cnt-badge{background:var(--gray1);color:var(--gray4);border-radius:10px;padding:1px 7px;font-size:11px;font-weight:600;text-align:center}
-.cnt-badge.multi{background:#fff3e0;color:#c96400}
-.status-tag{display:inline-block;border-radius:5px;padding:2px 7px;font-size:11px;font-weight:600}
-.status-active{background:#e8f5e9;color:#2e7d32}
-.status-closed{background:var(--gray1);color:var(--gray3)}
-.date-cell{font-size:11.5px;color:var(--gray4)}
-.no-result{text-align:center;padding:36px;color:var(--gray3);font-size:14px;display:none}
-.footer-note{text-align:right;font-size:11px;color:var(--gray3);margin-top:14px}
-
-/* 로딩 */
+td{padding:9px 10px;vertical-align:top;font-size:13px}
+.hospital-link{color:var(--blue);font-weight:600;text-decoration:none}
+.hospital-link:hover{text-decoration:underline}
+.branch-tag{display:inline-block;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
+.type-tag{display:inline-block;background:#f0fff4;color:#1a7c42;border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
+.date-cell{color:var(--gray3);font-size:12px;white-space:nowrap}
+.empty-msg{text-align:center;padding:50px;color:var(--gray3)}
 .loading-wrap{text-align:center;padding:60px;color:var(--gray3)}
-.loading-spinner{width:36px;height:36px;border:4px solid var(--gray1);border-top-color:var(--blue);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 14px}
-@keyframes spin{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
-
 <div class="header">
-  <div class="header-left">
-    <div class="header-icon">🏥</div>
-    <div>
-      <div class="header-title">개원병원 현황</div>
-      
-    </div>
-  </div>
+  <div class="header-title">🏥 개원병원 현황</div>
   <div class="total-badge" id="totalBadge">로딩중...</div>
 </div>
-
-<div class="nav">
-  <div class="nav-tab active" data-sido="전체" onclick="switchTab(this)">전체 <span class="nav-badge" id="cnt-전체">-</span></div>
-  <div class="nav-tab" data-sido="서울" onclick="switchTab(this)">서울 <span class="nav-badge" id="cnt-서울">-</span></div>
-  <div class="nav-tab" data-sido="경기" onclick="switchTab(this)">경기 <span class="nav-badge" id="cnt-경기">-</span></div>
-  <div class="nav-tab" data-sido="인천" onclick="switchTab(this)">인천 <span class="nav-badge" id="cnt-인천">-</span></div>
-  <div class="nav-tab" data-sido="부산·울산·경남" onclick="switchTab(this)">부산·경남 <span class="nav-badge" id="cnt-부산·울산·경남">-</span></div>
-  <div class="nav-tab" data-sido="대구·경북" onclick="switchTab(this)">대구·경북 <span class="nav-badge" id="cnt-대구·경북">-</span></div>
-  <div class="nav-tab" data-sido="대전·충청" onclick="switchTab(this)">대전·충청 <span class="nav-badge" id="cnt-대전·충청">-</span></div>
-  <div class="nav-tab" data-sido="광주·호남" onclick="switchTab(this)">광주·호남 <span class="nav-badge" id="cnt-광주·호남">-</span></div>
-  <div class="nav-tab" data-sido="기타" onclick="switchTab(this)">기타 <span class="nav-badge" id="cnt-기타">-</span></div>
-</div>
-
+<nav class="nav" id="navBar"></nav>
 <div class="toolbar">
   <div class="filter-group">
     <span class="filter-label">🏢 지점</span>
@@ -132,217 +71,153 @@ tbody td{padding:8px 10px;vertical-align:middle;line-height:1.4}
       <option>목포지점</option><option>부산1지점</option><option>부산2지점</option>
       <option>부산3지점</option><option>부산4출장소</option><option>북부지점</option>
       <option>서부지점</option><option>서산 출장소</option><option>서초지점</option>
-      <option>성남지점</option><option>수원지점</option><option>순천지점</option>
+      <option>성남지점</option><option>순천지점</option><option>수원지점</option>
       <option>안동지점</option><option>안산지점</option><option>안양지점</option>
-      <option>용인지점</option><option>울산지점</option><option>원주출장소</option>
-      <option>의정부지점</option><option>인천1지점</option><option>인천2지점</option>
-      <option>인천3지점</option><option>일산지점</option><option>전주지점</option>
-      <option>제주지점</option><option>중부지점</option><option>진주지점</option>
+      <option>원주출장소</option><option>의정부지점</option><option>인천1지점</option>
+      <option>인천2지점</option><option>인천3지점</option><option>일산지점</option>
+      <option>전주지점</option><option>제주지점</option><option>중부지점</option>
       <option>창원지점</option><option>천안지점</option><option>청주지점</option>
       <option>춘천 출장소</option><option>통영지점</option><option>포항지점</option>
+      <option>용인지점</option><option>진주지점</option><option>울산지점</option>
     </select>
   </div>
   <div class="filter-group">
-    <span class="filter-label">🏷 종별</span>
+    <span class="filter-label">🏨 종별</span>
     <select class="filter-sel" id="typeFilter" onchange="applyFilters()">
       <option value="">전체 종별</option>
-      <option>의원</option><option>병원</option><option>요양병원</option><option>한의원</option><option>기타</option>
-    </select>
-  </div>
-  <div class="filter-group">
-    <span class="filter-label">📋 상태</span>
-    <select class="filter-sel" id="statusFilter" onchange="applyFilters()">
-      <option value="">전체</option>
-      <option value="active">채용중</option>
-      <option value="closed">마감</option>
+      <option>정형외과</option><option>내과</option><option>한의원</option>
+      <option>통증의학과</option><option>피부과</option><option>성형외과</option>
+      <option>산부인과</option><option>치과</option><option>신경외과</option>
+      <option>요양병원</option><option>의원</option><option>병원</option><option>기타</option>
     </select>
   </div>
   <div class="search-wrap">
-    <span class="ico">🔍</span>
-    <input class="search-input" id="searchInput" type="text" placeholder="병원명 · 지역명 · 직종 검색..." oninput="applyFilters()">
+    <span class="search-ico">🔍</span>
+    <input class="search-input" id="searchInput" type="text" placeholder="병원명 · 지역명 검색..." oninput="applyFilters()">
   </div>
-  <span class="info-text">📅 최종 갱신: <span id="updateTime">-</span></span>
+  <div class="info-right">최종 갱신: <span id="updateTime">-</span></div>
 </div>
-
-
-
-<div class="content">
-  <div class="sector active" id="sector-전체">
-    <div class="sector-head"><div class="sector-label">📋 전체</div><div class="sector-cnt" id="lbl-전체">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-전체"><div class="loading-wrap"><div class="loading-spinner"></div>데이터 로딩중...</div></div>
-    <div class="no-result" id="nr-전체">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-서울">
-    <div class="sector-head"><div class="sector-label">📍 서울</div><div class="sector-cnt" id="lbl-서울">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-서울"></div>
-    <div class="no-result" id="nr-서울">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-경기">
-    <div class="sector-head"><div class="sector-label">📍 경기</div><div class="sector-cnt" id="lbl-경기">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-경기"></div>
-    <div class="no-result" id="nr-경기">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-인천">
-    <div class="sector-head"><div class="sector-label">📍 인천</div><div class="sector-cnt" id="lbl-인천">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-인천"></div>
-    <div class="no-result" id="nr-인천">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-부산·울산·경남">
-    <div class="sector-head"><div class="sector-label">📍 부산·울산·경남</div><div class="sector-cnt" id="lbl-부산·울산·경남">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-부산·울산·경남"></div>
-    <div class="no-result" id="nr-부산·울산·경남">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-대구·경북">
-    <div class="sector-head"><div class="sector-label">📍 대구·경북</div><div class="sector-cnt" id="lbl-대구·경북">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-대구·경북"></div>
-    <div class="no-result" id="nr-대구·경북">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-대전·충청">
-    <div class="sector-head"><div class="sector-label">📍 대전·충청</div><div class="sector-cnt" id="lbl-대전·충청">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-대전·충청"></div>
-    <div class="no-result" id="nr-대전·충청">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-광주·호남">
-    <div class="sector-head"><div class="sector-label">📍 광주·호남</div><div class="sector-cnt" id="lbl-광주·호남">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-광주·호남"></div>
-    <div class="no-result" id="nr-광주·호남">검색 결과가 없습니다.</div>
-  </div>
-  <div class="sector" id="sector-기타">
-    <div class="sector-head"><div class="sector-label">📍 기타</div><div class="sector-cnt" id="lbl-기타">-</div></div>
-    <div class="tbl-wrap" id="tbl-wrap-기타"></div>
-    <div class="no-result" id="nr-기타">검색 결과가 없습니다.</div>
-  </div>
-  <div class="footer-note">※ </div>
+<div class="content" id="mainContent">
+  <div class="loading-wrap">데이터 로딩중...</div>
 </div>
 
 <script>
-const SIDOS = ['전체','서울','경기','인천','부산·울산·경남','대구·경북','대전·충청','광주·호남','기타'];
-let allData = [];
-
-function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-
-function getSido(region) {
-  const r = region || '';
-  if (r.startsWith('서울')) return '서울';
-  if (r.startsWith('경기')) return '경기';
-  if (r.startsWith('인천')) return '인천';
-  if (r.startsWith('부산') || r.startsWith('울산') || r.startsWith('경남') || r.startsWith('창원')) return '부산·울산·경남';
-  if (r.startsWith('대구') || r.startsWith('경북')) return '대구·경북';
-  if (r.startsWith('대전') || r.startsWith('충북') || r.startsWith('충남') || r.startsWith('세종')) return '대전·충청';
-  if (r.startsWith('광주') || r.startsWith('전북') || r.startsWith('전남')) return '광주·호남';
-  return '기타';
+const TABS = ['전체','서울','경기','인천','부산·경남','대구·경북','대전·충청','광주·호남','기타'];
+function getSido(r){
+  if(!r)return'기타';
+  if(r.startsWith('서울'))return'서울';
+  if(r.startsWith('경기'))return'경기';
+  if(r.startsWith('인천'))return'인천';
+  if(r.startsWith('부산')||r.startsWith('경남')||r.startsWith('울산'))return'부산·경남';
+  if(r.startsWith('대구')||r.startsWith('경북'))return'대구·경북';
+  if(r.startsWith('대전')||r.startsWith('충북')||r.startsWith('충남')||r.startsWith('세종'))return'대전·충청';
+  if(r.startsWith('광주')||r.startsWith('전북')||r.startsWith('전남'))return'광주·호남';
+  return'기타';
 }
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
-function makeTable(data) {
-  if (!data.length) return '';
-  const rows = data.map((d, i) => {
-    const br = d.branch || '-';
-    const updateDate = d.update_date || d.last_seen || '';
-    return `<tr data-branch="${esc(br)}" data-type="${esc(d.type||'')}" data-sido="${esc(getSido(d.region))}" data-status="${d.status||'active'}">
-      <td class="td-no">${i+1}</td>
-      <td><a class="hosp-link" href="${esc(d.url)}" target="_blank">${esc(d.hospital)}</a></td>
-      <td><span class="branch-tag ${br==='-'?'none':''}">${esc(br)}</span></td>
-      <td><span class="type-tag type-${esc(d.type||'기타')}">${esc(d.type||'기타')}</span></td>
-      <td class="date-cell">${esc(d.region)}</td>
-      <td style="font-size:12.5px">${esc(d.title)}</td>
-      <td class="date-cell">${esc(updateDate)}</td>
-    </tr>`;
-  }).join('');
-  return `<table>
+let allData=[], currentTab='전체';
+
+function makeTable(data){
+  if(!data.length)return'<div class="empty-msg">해당 조건의 병원이 없습니다.</div>';
+  let rows=data.map((d,i)=>`<tr>
+    <td style="color:var(--gray3);width:32px">${i+1}</td>
+    <td><a class="hospital-link" href="${esc(d.url)}" target="_blank">${esc(d.hospital)}</a></td>
+    <td>${d.branch&&d.branch!=='-'?`<span class="branch-tag">${esc(d.branch)}</span>`:'<span style="color:var(--gray2)">-</span>'}</td>
+    <td><span class="type-tag">${esc(d.type||'기타')}</span></td>
+    <td style="color:var(--gray4)">${esc(d.region||'')}</td>
+    <td style="max-width:420px">${esc(d.title||'')}</td>
+    <td class="date-cell">${esc(d.update_date||d.last_seen||'')}</td>
+  </tr>`).join('');
+  return`<table>
     <thead><tr>
-      <th class="td-no">#</th>
-      <th style="min-width:145px">병원명</th>
-      <th style="width:105px">담당지점</th>
-      <th style="width:65px">종별</th>
+      <th style="width:32px">#</th>
+      <th style="min-width:140px">병원명</th>
+      <th style="width:90px">담당지점</th>
+      <th style="width:85px">종별</th>
       <th style="width:120px">지역</th>
       <th>공고제목</th>
-      <th style="width:110px">최근업데이트</th>
+      <th style="width:100px">최근업데이트</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
 }
-function renderAll(hospitals) {
-  const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 14);
-  allData = Object.values(hospitals).filter(d => d.last_seen && new Date(d.last_seen) >= cutoff).sort((a,b)=>{
-    if (a.status !== b.status) return a.status==='active' ? -1 : 1;
-    return (b.first_seen||'').localeCompare(a.first_seen||'');
+
+function applyFilters(){
+  const branch=document.getElementById('branchFilter').value;
+  const type=document.getElementById('typeFilter').value;
+  const q=document.getElementById('searchInput').value.toLowerCase();
+  const filtered=allData.filter(d=>{
+    if(currentTab!=='전체'&&getSido(d.region)!==currentTab)return false;
+    if(branch&&d.branch!==branch)return false;
+    if(type&&d.type!==type)return false;
+    if(q&&!(d.hospital||'').toLowerCase().includes(q)&&!(d.region||'').toLowerCase().includes(q)&&!(d.title||'').toLowerCase().includes(q))return false;
+    return true;
   });
+  const sec=document.getElementById('sec-'+currentTab);
+  if(sec)sec.querySelector('.tbl-wrap').innerHTML=makeTable(filtered);
+  const cnt=document.querySelector('.nav-tab.active .nav-badge');
+  if(cnt)cnt.textContent=filtered.length;
+}
 
-  SIDOS.forEach(sido => {
-    const filtered = sido==='전체' ? allData : allData.filter(d => {
-      const ds = getSido(d.region);
-      if (sido === '기타') return !['서울','경기','인천','부산','울산','경남','창원','대구','경북','대전','충북','충남','세종','광주','전북','전남'].some(s=>(d.region||'').startsWith(s));
-      return ds === sido;
-    });
-    const wrap = document.getElementById('tbl-wrap-'+sido);
-    if (wrap) wrap.innerHTML = makeTable(filtered);
-    document.getElementById('cnt-'+sido).textContent = filtered.length;
-    document.getElementById('lbl-'+sido).textContent = filtered.length+'건';
-  });
-
-  const active  = allData.filter(d=>d.status==='active').length;
-  const closed  = allData.filter(d=>d.status==='closed').length;
-  const newCnt  = allData.filter(d=>{
-    if (!d.first_seen) return false;
-    return (new Date() - new Date(d.first_seen)) / 86400000 <= 7;
-  }).length;
-
-  document.getElementById('totalBadge')&&(document.getElementById('totalBadge').textContent=allData.length+'개 병원');
-  
-  
-  
-  
+function switchTab(tab){
+  currentTab=tab;
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===tab));
+  document.querySelectorAll('.sector').forEach(s=>s.classList.toggle('active',s.id==='sec-'+tab));
   applyFilters();
 }
 
-function applyFilters() {
-  const branch = document.getElementById('branchFilter').value;
-  const type   = document.getElementById('typeFilter').value;
-  const status = document.getElementById('statusFilter').value;
-  const q      = document.getElementById('searchInput').value.trim().toLowerCase();
-  SIDOS.forEach(sido => {
-    const wrap = document.getElementById('tbl-wrap-'+sido);
-    if (!wrap) return;
-    let vis = 0;
-    wrap.querySelectorAll('tbody tr').forEach(tr => {
-      const ok = (!branch || tr.dataset.branch===branch) &&
-                 (!type   || tr.dataset.type===type) &&
-                 (!status || tr.dataset.status===status) &&
-                 (!q      || tr.textContent.toLowerCase().includes(q));
-      tr.style.display = ok ? '' : 'none';
-      if (ok) vis++;
-    });
-    document.getElementById('nr-'+sido).style.display = vis===0 ? 'block' : 'none';
-    document.getElementById('lbl-'+sido).textContent = vis+'건';
-    document.getElementById('cnt-'+sido).textContent = vis;
+function renderAll(hospitals){
+  allData=Object.values(hospitals);
+  // 15일 필터
+  const cutoff=new Date(Date.now()+9*3600000);
+  cutoff.setDate(cutoff.getDate()-14);
+  const cutStr=cutoff.toISOString().slice(0,10);
+  allData=allData.filter(d=>(d.update_date||d.last_seen||'')>=cutStr);
+
+  // 탭별 카운트
+  const counts={};
+  TABS.forEach(t=>counts[t]=0);
+  allData.forEach(d=>{
+    counts['전체']++;
+    const s=getSido(d.region);
+    if(counts[s]!==undefined)counts[s]++;
+    else counts['기타']++;
   });
+
+  // 네비 생성
+  const nav=document.getElementById('navBar');
+  nav.innerHTML=TABS.map(t=>`<div class="nav-tab${t==='전체'?' active':''}" data-tab="${t}" onclick="switchTab('${t}')">
+    ${t} <span class="nav-badge">${counts[t]||0}</span>
+  </div>`).join('');
+
+  // totalBadge
+  document.getElementById('totalBadge').textContent=allData.length+'개 병원';
+
+  // 섹탄 생성
+  const content=document.getElementById('mainContent');
+  content.innerHTML=TABS.map(t=>`<div class="sector${t==='전체'?' active':''}" id="sec-${t}">
+    <div class="sector-head">
+      <span class="sector-label">📋 ${t}</span>
+      <span class="sector-cnt">${counts[t]||0}건</span>
+    </div>
+    <div class="tbl-wrap"></div>
+  </div>`).join('');
+
+  applyFilters();
 }
 
-function switchTab(el) {
-  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
-  document.querySelectorAll('.sector').forEach(s=>s.classList.remove('active'));
-  el.classList.add('active');
-  document.getElementById('sector-'+el.dataset.sido).classList.add('active');
-}
-
-async function loadData() {
-  try {
-    const res = await fetch('data/master.json?t=' + Date.now());
-    if (!res.ok) throw new Error('data/master.json 로드 실패: ' + res.status);
-    const master = await res.json();
-    document.getElementById('updateTime').textContent = master.last_updated || '-';
-    renderAll(master.hospitals || {});
-  } catch(e) {
-    document.getElementById('tbl-wrap-전체').innerHTML =
-      `<div style="text-align:center;padding:40px;color:#d93025">
-        ⚠️ 데이터를 불러오지 못했습니다.<br>
-        <small style="color:#8899aa">${e.message}</small>
-      </div>`;
-    console.error(e);
-  }
-}
-
-loadData();
+// 데이터 로드
+fetch('data/master.json?t='+Date.now())
+  .then(r=>r.json())
+  .then(m=>{
+    document.getElementById('updateTime').textContent=m.last_updated||'-';
+    renderAll(m.hospitals||{});
+  })
+  .catch(e=>{
+    document.getElementById('mainContent').innerHTML=
+      '<div class="empty-msg">⚠️ 데이터를 불러오지 못했습니다.<br>'+e.message+'</div>';
+  });
 </script>
 </body>
 </html>
