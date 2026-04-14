@@ -1,5 +1,93 @@
 {
   "hospitals": {
+    "주연화내과의원|서울 > 관악구": {
+      "seqno": "3614401",
+      "hospital": "주연화내과의원",
+      "title": "난곡사거리 내과에서 간호조무사 선생님 모십니다 / 신규개원",
+      "region": "서울 > 관악구",
+      "sido": "서울",
+      "branch": "남부2지점",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-13",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614401",
+      "seqnos": [
+        "3614401"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "경희예스한의원|서울 > 동대문구": {
+      "seqno": "3610499",
+      "hospital": "경희예스한의원",
+      "title": "서울 외대앞역 개원예정인 경희예스한의원(입원실 4병상) 에서 주간실장(간호사 or 간호조무사자격증필수) 선생님을 모십니다. 교통사고입원실청구가능시 급여+@d",
+      "region": "서울 > 동대문구",
+      "sido": "서울",
+      "branch": "중부지점",
+      "type": "한의원",
+      "jobs": [
+        "간호조무사",
+        "간호사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610499",
+      "seqnos": [
+        "3610499"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울에이스비뇨의학과의원|경기 > 성남시": {
+      "seqno": "3611027",
+      "hospital": "서울에이스비뇨의학과의원",
+      "title": "★6월 1일 개원★ [분당서현역] 서울에이스비뇨의학과 외래팀장/부팀장 & 수술실장 모집",
+      "region": "경기 > 성남시",
+      "sido": "경기",
+      "branch": "성남지점",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
+      "seqnos": [
+        "3611027"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "아바성형외과|서울 > 서초구": {
+      "seqno": "3616260",
+      "hospital": "아바성형외과",
+      "title": "[6월개원/신사역1분거리] 아바성형외과 피부관리사 채용합니다!",
+      "region": "서울 > 서초구",
+      "sido": "서울",
+      "branch": "서초지점",
+      "type": "성형외과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616260",
+      "seqnos": [
+        "3616260",
+        "3616255"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
     "별내바른365정형외과|경기 > 남양주시": {
       "seqno": "3608005",
       "hospital": "별내바른365정형외과",
@@ -113,13 +201,12 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616096",
       "seqnos": [
         "3616096",
-        "3616096",
         "3616094",
         "3616093",
         "3616092",
         "3616091"
       ],
-      "count": 6,
+      "count": 5,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -167,29 +254,6 @@
         "3608502"
       ],
       "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "경희예스한의원|서울 > 동대문구": {
-      "seqno": "3610499",
-      "hospital": "경희예스한의원",
-      "title": "서울 외대앞역 개원예정인 경희예스한의원(입원실 4병상) 에서 주간실장(간호사 or 간호조무사자격증필수) 선생님을 모십니다. 교통사고입원실청구가능시 급여+@d",
-      "region": "서울 > 동대문구",
-      "sido": "서울",
-      "branch": "중부지점",
-      "type": "한의원",
-      "jobs": [
-        "간호조무사",
-        "간호사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610499",
-      "seqnos": [
-        "3610499"
-      ],
-      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -372,26 +436,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615320",
       "seqnos": [
         "3615320"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "서울에이스비뇨의학과의원|경기 > 성남시": {
-      "seqno": "3611027",
-      "hospital": "서울에이스비뇨의학과의원",
-      "title": "★6월 1일 개원★ [분당서현역] 서울에이스비뇨의학과 외래팀장/부팀장 & 수술실장 모집",
-      "region": "경기 > 성남시",
-      "sido": "경기",
-      "branch": "성남지점",
-      "type": "의원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
-      "seqnos": [
-        "3611027"
       ],
       "count": 1,
       "status": "active",
