@@ -261,7 +261,7 @@ function makeTable(data) {
       <td>${cntBadge}</td>
       <td>${statusTag}</td>
       <td class="date-cell">${esc(d.first_seen||'')}</td>
-      <td class="date-cell">${esc(d.closed_date||'-')}</td>
+      
     </tr>`;
   }).join('');
 
@@ -273,11 +273,8 @@ function makeTable(data) {
       <th style="width:65px">종별</th>
       <th style="width:120px">지역</th>
       <th>공고제목</th>
-      <th style="width:130px">구인직종</th>
-      <th style="width:38px">건</th>
-      <th style="width:75px">상태</th>
       <th style="width:85px">최근업데이트</th>
-      <th style="width:85px">마감일</th>
+      
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
