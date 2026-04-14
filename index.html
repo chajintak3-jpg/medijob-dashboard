@@ -45,11 +45,13 @@ tbody tr:hover{background:var(--blue-lt)}
 td{padding:9px 10px;vertical-align:top;font-size:13px}
 .hospital-link{color:var(--blue);font-weight:600;text-decoration:none}
 .hospital-link:hover{text-decoration:underline}
-.branch-tag{display:inline-block;white-space:nowrap;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
-.type-tag{display:inline-block;background:#f0fff4;color:#1a7c42;border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
+.branch-tag{display:inline-block;white-space:nowrap;white-space:nowrap;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
+.type-tag{display:inline-block;white-space:nowrap;background:#f0fff4;color:#1a7c42;border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
 .date-cell{color:var(--gray3);font-size:12px;white-space:nowrap}
 .empty-msg{text-align:center;padding:50px;color:var(--gray3)}
 .loading-wrap{text-align:center;padding:60px;color:var(--gray3)}
+
+@media(max-width:640px){table,thead,tbody,th,td,tr{display:block}thead{display:none}.tbl-wrap{overflow:visible}table{min-width:unset;box-shadow:none;background:transparent;border-radius:0}tbody tr{background:var(--white);border-radius:10px;margin-bottom:10px;padding:14px;box-shadow:0 2px 8px rgba(21,88,176,.08);border:none}tbody tr:hover{background:var(--white)}td{padding:3px 0;border:none;font-size:13px;display:flex;align-items:flex-start;gap:6px}td::before{content:attr(data-label);font-size:11px;color:var(--gray3);font-weight:600;min-width:60px;flex-shrink:0;padding-top:2px}td:first-child{display:none}td.td-hospital{font-size:14px;font-weight:700;margin-bottom:6px;display:block}td.td-hospital::before{display:none}td.td-date{margin-top:4px}}
 </style>
 </head>
 <body>
@@ -122,12 +124,12 @@ function makeTable(data){
   if(!data.length)return'<div class="empty-msg">해당 조건의 병원이 없습니다.</div>';
   let rows=data.map((d,i)=>`<tr>
     <td style="color:var(--gray3);width:32px">${i+1}</td>
-    <td><a class="hospital-link" href="${esc(d.url)}" target="_blank">${esc(d.hospital)}</a></td>
-    <td>${d.branch&&d.branch!=='-'?`<span class="branch-tag">${esc(d.branch)}</span>`:'<span style="color:var(--gray2)">-</span>'}</td>
-    <td><span class="type-tag">${esc(d.type||'기타')}</span></td>
-    <td style="color:var(--gray4)">${esc(d.region||'')}</td>
-    <td style="max-width:420px">${esc(d.title||'')}</td>
-    <td class="date-cell">${esc(d.update_date||d.last_seen||'')}</td>
+    <td class="td-hospital"><a class="hospital-link" href="${esc(d.url)}" target="_blank">${esc(d.hospital)}</a></td>
+    <td data-label="담당지점">${d.branch&&d.branch!=='-'?`<span class="branch-tag">${esc(d.branch)}</span>`:'<span style="color:var(--gray2)">-</span>'}</td>
+    <td data-label="종별"><span class="type-tag">${esc(d.type||'기타')}</span></td>
+    <td data-label="지역" style="color:var(--gray4)">${esc(d.region||'')}</td>
+    <td data-label="공고제목">${esc(d.title||'')}</td>
+    <td data-label="최근업데이트" class="date-cell td-date">${esc(d.update_date||d.last_seen||'')}</td>
   </tr>`).join('');
   return`<table>
     <thead><tr>
