@@ -59,7 +59,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "2026-04-09",
+      "reg_date": "2026-04-14",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3593281",
       "seqnos": [
@@ -67,7 +67,7 @@
         "3611934"
       ],
       "count": 2,
-      "first_seen": "2026-04-09",
+      "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "closed_date": null,
       "status": "active"
@@ -115,7 +115,7 @@
       ],
       "count": 1,
       "first_seen": "2026-04-08",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-08",
       "closed_date": null,
       "status": "active"
     },
@@ -141,7 +141,7 @@
       ],
       "count": 1,
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-07",
       "closed_date": null,
       "status": "active"
     },
@@ -195,7 +195,7 @@
       ],
       "count": 1,
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-13",
       "closed_date": null,
       "status": "active"
     },
@@ -321,7 +321,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "2026-04-14",
+      "reg_date": "2026-04-13",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614552",
       "seqnos": [
@@ -330,8 +330,8 @@
         "3614558"
       ],
       "count": 3,
-      "first_seen": "2026-04-14",
-      "last_seen": "2026-04-14",
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
       "closed_date": null,
       "status": "active"
     },
@@ -382,7 +382,7 @@
         "간호조무사"
       ],
       "deadline": "",
-      "reg_date": "2026-04-13",
+      "reg_date": "2026-04-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611913",
       "seqnos": [
@@ -390,8 +390,8 @@
         "3614359"
       ],
       "count": 2,
-      "first_seen": "2026-04-13",
-      "last_seen": "2026-04-14",
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-04-09",
       "closed_date": null,
       "status": "active"
     },
@@ -409,7 +409,7 @@
         "방사선사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "2026-04-10",
+      "reg_date": "2026-04-03",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3603614",
       "seqnos": [
@@ -419,8 +419,8 @@
         "3608502"
       ],
       "count": 4,
-      "first_seen": "2026-04-10",
-      "last_seen": "2026-04-14",
+      "first_seen": "2026-04-03",
+      "last_seen": "2026-04-03",
       "closed_date": null,
       "status": "active"
     },
@@ -486,7 +486,7 @@
       ],
       "count": 4,
       "first_seen": "2026-04-03",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-03",
       "closed_date": null,
       "status": "active"
     },
@@ -588,7 +588,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "13일전",
+      "reg_date": "2026-04-01",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3606193",
       "seqnos": [
@@ -599,8 +599,8 @@
         "3606212"
       ],
       "count": 5,
-      "first_seen": "2026-04-14",
-      "last_seen": "2026-04-14",
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
       "closed_date": "2026-04-14",
       "status": "closed"
     },
@@ -666,15 +666,15 @@
         "간호조무사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "2026-04-09",
+      "reg_date": "2026-04-08",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611741",
       "seqnos": [
         "3611741"
       ],
       "count": 1,
-      "first_seen": "2026-04-09",
-      "last_seen": "2026-04-14",
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
       "closed_date": null,
       "status": "active"
     },
@@ -696,7 +696,7 @@
       ],
       "count": 1,
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-10",
       "closed_date": null,
       "status": "active"
     },
@@ -726,6 +726,32 @@
       "last_seen": "2026-04-14",
       "closed_date": null,
       "status": "active"
+    },
+    "바로싹통증의학과|서울 > 은평구": {
+      "seqno": "3615934",
+      "seqnos": [
+        "3615934",
+        "3615933"
+      ],
+      "hospital": "바로싹통증의학과",
+      "title": "☆26년5월 신규개원☆구파발 바로싹통증의학과에서 외래 간호조무사 선생님을 초빙합니다.",
+      "region": "서울 > 은평구",
+      "sido": "서울",
+      "branch": "북부지점",
+      "type": "통증의학과",
+      "jobs": [
+        "간호조무사",
+        "원무"
+      ],
+      "deadline": "채용시까지",
+      "is_closed": false,
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "reg_date": "2026-04-14",
+      "closed_date": null,
+      "status": "active",
+      "count": 2,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615934"
     }
   },
   "snapshots": [
