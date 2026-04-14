@@ -45,7 +45,7 @@ tbody tr:hover{background:var(--blue-lt)}
 td{padding:9px 10px;vertical-align:top;font-size:13px}
 .hospital-link{color:var(--blue);font-weight:600;text-decoration:none}
 .hospital-link:hover{text-decoration:underline}
-.branch-tag{display:inline-block;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
+.branch-tag{display:inline-block;white-space:nowrap;background:var(--blue-lt);color:var(--blue);border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
 .type-tag{display:inline-block;background:#f0fff4;color:#1a7c42;border-radius:5px;padding:2px 8px;font-size:12px;font-weight:600}
 .date-cell{color:var(--gray3);font-size:12px;white-space:nowrap}
 .empty-msg{text-align:center;padding:50px;color:var(--gray3)}
@@ -133,7 +133,7 @@ function makeTable(data){
     <thead><tr>
       <th style="width:32px">#</th>
       <th style="min-width:140px">병원명</th>
-      <th style="width:90px">담당지점</th>
+      <th style="width:110px">담당지점</th>
       <th style="width:85px">종별</th>
       <th style="width:120px">지역</th>
       <th>공고제목</th>
