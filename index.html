@@ -285,7 +285,7 @@ function makeTable(data) {
 
 function renderAll(hospitals) {
   const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 14);
-  allData = Object.values(hospitals).filter(d => d.first_seen && new Date(d.first_seen) >= cutoff).sort((a,b)=>{
+  allData = Object.values(hospitals).filter(d => d.last_seen && new Date(d.last_seen) >= cutoff).sort((a,b)=>{
     if (a.status !== b.status) return a.status==='active' ? -1 : 1;
     return (b.first_seen||'').localeCompare(a.first_seen||'');
   });
