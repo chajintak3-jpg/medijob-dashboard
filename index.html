@@ -241,30 +241,18 @@ function getSido(region) {
 function makeTable(data) {
   if (!data.length) return '';
   const rows = data.map((d, i) => {
-    const branch = d.branch || '-';
-    const status = d.status === 'active' ? 'active' : 'closed';
-    const jobTags = (d.jobs||[]).map(j=>`<span class="job-tag">${esc(j)}</span>`).join('');
-    const cntBadge = d.count > 1
-      ? `<span class="cnt-badge multi">${d.count}</span>`
-      : `<span class="cnt-badge">${d.count||1}</span>`;
-    const statusTag = status === 'active'
-      ? '<span class="status-tag status-active">채용중</span>'
-      : '<span class="status-tag status-closed">마감</span>';
-    return `<tr class="${status==='closed'?'is-closed':''}" data-branch="${esc(branch)}" data-type="${esc(d.type||'')}" data-sido="${esc(getSido(d.region))}" data-status="${status}">
+    const br = d.branch || '-';
+    const updateDate = d.update_date || d.last_seen || '';
+    return `<tr data-branch="${esc(br)}" data-type="${esc(d.type||'')}" data-sido="${esc(getSido(d.region))}" data-status="${d.status||'active'}">
       <td class="td-no">${i+1}</td>
       <td><a class="hosp-link" href="${esc(d.url)}" target="_blank">${esc(d.hospital)}</a></td>
-      <td><span class="branch-tag ${branch==='-'?'none':''}">${esc(branch)}</span></td>
+      <td><span class="branch-tag ${br==='-'?'none':''}">${esc(br)}</span></td>
       <td><span class="type-tag type-${esc(d.type||'기타')}">${esc(d.type||'기타')}</span></td>
       <td class="date-cell">${esc(d.region)}</td>
       <td style="font-size:12.5px">${esc(d.title)}</td>
-      <td>${jobTags||'<span style="color:var(--gray3);font-size:11px">-</span>'}</td>
-      <td>${cntBadge}</td>
-      <td>${statusTag}</td>
-      <td class="date-cell">${esc(d.first_seen||'')}</td>
-      
+      <td class="date-cell">${esc(updateDate)}</td>
     </tr>`;
   }).join('');
-
   return `<table>
     <thead><tr>
       <th class="td-no">#</th>
@@ -273,13 +261,11 @@ function makeTable(data) {
       <th style="width:65px">종별</th>
       <th style="width:120px">지역</th>
       <th>공고제목</th>
-      <th style="width:85px">최근업데이트</th>
-      
+      <th style="width:110px">최근업데이트</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
 }
-
 function renderAll(hospitals) {
   const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 14);
   allData = Object.values(hospitals).filter(d => d.last_seen && new Date(d.last_seen) >= cutoff).sort((a,b)=>{
