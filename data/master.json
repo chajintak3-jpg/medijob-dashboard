@@ -1,5 +1,1471 @@
 {
   "hospitals": {
+    "비에스코아이비인후과병원|": {
+      "seqno": "3616084",
+      "hospital": "비에스코아이비인후과병원",
+      "title": "(최고대우)서울강서) (8:30~17:30) 수술실 간호사 충원 모집합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [
+        "간호사",
+        "간호조무사",
+        "원무"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616084",
+      "seqnos": [
+        "3616084",
+        "3616083",
+        "3616082",
+        "3616081",
+        "3615368"
+      ],
+      "count": 5,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "강영목정형외과|": {
+      "seqno": "3612150",
+      "hospital": "강영목정형외과",
+      "title": "간호조무사 구인합니다.(주5일근무. IM,IV가능자. )",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-09",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612150",
+      "seqnos": [
+        "3612150"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "그린재활의학과의원|": {
+      "seqno": "3613423",
+      "hospital": "그린재활의학과의원",
+      "title": "(남양주) [평내호평역 / 남자기숙사제공] 그린재활의학과 에서 근무하실 물리치료사 선생님을 모십니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613423",
+      "seqnos": [
+        "3613423"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "365고려본재활의학과의원|": {
+      "seqno": "3616080",
+      "hospital": "365고려본재활의학과의원",
+      "title": "[주5일제근무형태/물리치료사]고려본재활의학과의원에서 함께한 선생님을 구인합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616080",
+      "seqnos": [
+        "3616080"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "굿본재활의학과 홍대점|": {
+      "seqno": "3616079",
+      "hospital": "굿본재활의학과 홍대점",
+      "title": "(홍대점) 굿본정형외과재활의학과에서 4/23(목) 알바 가능하신 방사선사 선생님을 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616079",
+      "seqnos": [
+        "3616079"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "대아의료재단 한도병원|": {
+      "seqno": "3610564",
+      "hospital": "대아의료재단 한도병원",
+      "title": "[한도병원] 측정팀 산업위생관리기사 모집",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610564",
+      "seqnos": [
+        "3610564"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "메디필드 한강병원|": {
+      "seqno": "3608132",
+      "hospital": "메디필드 한강병원",
+      "title": "[메디필드 한강병원] 종합병원 영상의학팀 경력직 방사선사 채용",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-03",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608132",
+      "seqnos": [
+        "3608132"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "고려정형외과|": {
+      "seqno": "3605590",
+      "hospital": "고려정형외과",
+      "title": "오전만 근무(주5일) 간호 조무사  모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3605590",
+      "seqnos": [
+        "3605590",
+        "3612939",
+        "3613845",
+        "3605926"
+      ],
+      "count": 4,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "계양척척통증의학과의원|": {
+      "seqno": "3616078",
+      "hospital": "계양척척통증의학과의원",
+      "title": "※주 5일 인천 계산동에서 간호 조무사 선생님 1분을 모십니다.※",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "통증의학과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616078",
+      "seqnos": [
+        "3616078",
+        "3615274"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "유정에이치알|": {
+      "seqno": "3616077",
+      "hospital": "유정에이치알",
+      "title": "구로디지털단지 한국건강관리협회 예약상담 모집",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616077",
+      "seqnos": [
+        "3616077"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "뉴서울의원|": {
+      "seqno": "3612921",
+      "hospital": "뉴서울의원",
+      "title": "간호조무사 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-10",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612921",
+      "seqnos": [
+        "3612921"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "신기탑365정형외과의원|": {
+      "seqno": "3616076",
+      "hospital": "신기탑365정형외과의원",
+      "title": "<주 4.5일/인천/미추홀구> 신기탑365정형외과의원 방사선사 선생님 구인합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616076",
+      "seqnos": [
+        "3616076"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "교대연세마취통증의학과의원|": {
+      "seqno": "3608020",
+      "hospital": "교대연세마취통증의학과의원",
+      "title": "[서초구 교대역]교대역 10번출구 교대연세마취통증의학과의원에서 물리치료 루틴알바 선생님 구인합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "통증의학과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-03",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608020",
+      "seqnos": [
+        "3608020"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울21세기병원|": {
+      "seqno": "3616075",
+      "hospital": "서울21세기병원",
+      "title": "임상병리사 정규직(경력직)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [
+        "임상병리사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616075",
+      "seqnos": [
+        "3616075"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "운정성모정형외과의원|": {
+      "seqno": "3616055",
+      "hospital": "운정성모정형외과의원",
+      "title": "[주 5일] 운정성모365정형외과에서 물리치료사 선생님 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "물리치료사",
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616055",
+      "seqnos": [
+        "3616055",
+        "3616063",
+        "3615940",
+        "3607630",
+        "3615071"
+      ],
+      "count": 5,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "브레인척척신경과재활의학과의원|": {
+      "seqno": "3611780",
+      "hospital": "브레인척척신경과재활의학과의원",
+      "title": "[강서/마곡] 방사선사 ㆍ경력무관ㆍ행정ㆍ",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "방사선사",
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611780",
+      "seqnos": [
+        "3611780",
+        "3613467"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "연세아산올케어정형외과의원|": {
+      "seqno": "3615432",
+      "hospital": "연세아산올케어정형외과의원",
+      "title": "★[마포구/주5일/급여우대]★ 연세아산올케어정형외과에서 원무과 직원(사원급)을 충원합니다!(경력)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "원무",
+        "간호조무사",
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615432",
+      "seqnos": [
+        "3615432",
+        "3615444",
+        "3615434",
+        "3615431",
+        "3615430"
+      ],
+      "count": 5,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "아산온유이비인후과의원|": {
+      "seqno": "3616074",
+      "hospital": "아산온유이비인후과의원",
+      "title": "(주38~42시간) 거여역 6번출구 바로 앞! 아산온유이비인후과의원 정규직 간호조무사 선생님 모집합니다. ^^",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616074",
+      "seqnos": [
+        "3616074"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "한국정형외과|": {
+      "seqno": "3616073",
+      "hospital": "한국정형외과",
+      "title": "04월   18일 (토)  방사선사 알바 쌤 구합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616073",
+      "seqnos": [
+        "3616073",
+        "3615441",
+        "3615109"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "사랑의 병원|": {
+      "seqno": "3609865",
+      "hospital": "사랑의 병원",
+      "title": "병동 RN선생님 구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-06",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609865",
+      "seqnos": [
+        "3609865"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "365웰 정형외과 재활의학과의원|": {
+      "seqno": "3610091",
+      "hospital": "365웰 정형외과 재활의학과의원",
+      "title": "송파구 방이역 도수치료파트 근막치료 전담 여자선생님 구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "원무"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-13",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610091",
+      "seqnos": [
+        "3610091",
+        "3609804",
+        "3614506"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "한울요양병원|": {
+      "seqno": "3616072",
+      "hospital": "한울요양병원",
+      "title": "나이트 킵 간호사를 모십니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "요양병원",
+      "jobs": [
+        "간호사",
+        "임상병리사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616072",
+      "seqnos": [
+        "3616072",
+        "3614997"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "울트라정형외과의원|": {
+      "seqno": "3611775",
+      "hospital": "울트라정형외과의원",
+      "title": "관악구 울트라정형외과 원무과 선생님을 모십니다.**",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "원무"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-08",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611775",
+      "seqnos": [
+        "3611775"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "바른몸재활의학과|": {
+      "seqno": "3610575",
+      "hospital": "바른몸재활의학과",
+      "title": "주4일 송파 바른몸재활의학과에서 간호조무사  채용 세후 230",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610575",
+      "seqnos": [
+        "3610575"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "답십리탑정형외과|": {
+      "seqno": "3607617",
+      "hospital": "답십리탑정형외과",
+      "title": "주5일) 답십리탑정형외과에서 원무과 선생님 구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "원무"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607617",
+      "seqnos": [
+        "3607617",
+        "3613711",
+        "3616062"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "굳센본재활의학과|": {
+      "seqno": "3616071",
+      "hospital": "굳센본재활의학과",
+      "title": "[일요일 고정 아르바이트] 굳센본재활의학과의원에서 물리치료사 선생님 구인합니다. (4/19~)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616071",
+      "seqnos": [
+        "3616071"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "연세더바른마취통증의학과의원|": {
+      "seqno": "3612453",
+      "hospital": "연세더바른마취통증의학과의원",
+      "title": "★신졸기준 실수령 260만원~ 주5.5일+법정연차별도(419민주묘지역/강북/삼양/수유동/수유역/쌍문동/우이동)간호조무사 구인(정형,통증,재활)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "통증의학과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-09",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612453",
+      "seqnos": [
+        "3612453"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "이루탄메디케어의원|": {
+      "seqno": "3606957",
+      "hospital": "이루탄메디케어의원",
+      "title": "이루탄메디케어의원(건강검진센터) 코디네이터 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "코디"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-02",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3606957",
+      "seqnos": [
+        "3606957",
+        "3607634"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "쌍문성모튼튼의원|": {
+      "seqno": "3610818",
+      "hospital": "쌍문성모튼튼의원",
+      "title": "쌍문성모튼튼의원 간호조무사 구인(정형외과)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사",
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610818",
+      "seqnos": [
+        "3610818",
+        "3613452"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "강서큰나무재활의학과의원|": {
+      "seqno": "3616070",
+      "hospital": "강서큰나무재활의학과의원",
+      "title": "(가양역 강서큰나무재활의학과의원) 간호조무사 채용합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616070",
+      "seqnos": [
+        "3616070"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "하이미의원|": {
+      "seqno": "3610250",
+      "hospital": "하이미의원",
+      "title": "하이미의원과 함께할 유능한 간호조무사 선생님을 모십니다. (급여협의)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610250",
+      "seqnos": [
+        "3610250"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "안산고잔바로튼튼의원|": {
+      "seqno": "3612495",
+      "hospital": "안산고잔바로튼튼의원",
+      "title": "[일16만원/주차가능]04/17(금) 근무 가능하신 방사선사 아르바이트 선생님 구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-09",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612495",
+      "seqnos": [
+        "3612495"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "목동연세일등의원|": {
+      "seqno": "3616069",
+      "hospital": "목동연세일등의원",
+      "title": "목동역 통증의학과에서 물리치료사 선생님 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "물리치료사",
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616069",
+      "seqnos": [
+        "3616069",
+        "3616068"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울미즈병원|": {
+      "seqno": "3616067",
+      "hospital": "서울미즈병원",
+      "title": "산부인과  난임외래  간호사  구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [
+        "간호사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616067",
+      "seqnos": [
+        "3616067"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "신풍바른재활의학과의원|": {
+      "seqno": "3616066",
+      "hospital": "신풍바른재활의학과의원",
+      "title": "[신풍바른재활의학과] 4월 16일(목요일) 매뉴얼  및 루틴알바 구인합니다!",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616066",
+      "seqnos": [
+        "3616066",
+        "3613975",
+        "3613976"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "든든한 병원|": {
+      "seqno": "3616065",
+      "hospital": "든든한 병원",
+      "title": "외래  처치 선생님 구인합니다. (외래 처치)처치경력1년이상",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616065",
+      "seqnos": [
+        "3616065"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울미래정형외과|": {
+      "seqno": "3612941",
+      "hospital": "서울미래정형외과",
+      "title": "외래 간호부 정직원 선생님을 모십니다. (인원증원)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-10",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612941",
+      "seqnos": [
+        "3612941"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "성북탑정형외과신경외과의원|": {
+      "seqno": "3616064",
+      "hospital": "성북탑정형외과신경외과의원",
+      "title": "주5일제) 성북탑정형외과신경외과에서 모달리티선생님(충격파)구인합니다. 일요일근무X",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616064",
+      "seqnos": [
+        "3616064",
+        "3615160",
+        "3615159"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "연세정형외과|": {
+      "seqno": "3616061",
+      "hospital": "연세정형외과",
+      "title": "여자 간호조무사  (토) 알바 구합니다 (매달2주,4주)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616061",
+      "seqnos": [
+        "3616061"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "아미나요양병원|": {
+      "seqno": "3616059",
+      "hospital": "아미나요양병원",
+      "title": "[ 아미나 요양병원(암병원) ] 병동 간호조무사 선생님 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "요양병원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616059",
+      "seqnos": [
+        "3616059",
+        "3610449",
+        "3610326"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "정발산튼튼척의원|": {
+      "seqno": "3616060",
+      "hospital": "정발산튼튼척의원",
+      "title": "⭐(입사일부터 주 5일 / 탄력근무제) 간호조무사 선생님을 채용합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사",
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616060",
+      "seqnos": [
+        "3616060",
+        "3616057",
+        "3616056",
+        "3615971",
+        "3614974"
+      ],
+      "count": 5,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "연세힐재활의학과의원|": {
+      "seqno": "3605555",
+      "hospital": "연세힐재활의학과의원",
+      "title": "(주5일/OFF와 연차 별도 워라벨/야간진료×)[간호팀/통증의학 경력자 실수령 250만원부터]잠실역에서 도보 5분/외래 간호 선생님을 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-03-31",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3605555",
+      "seqnos": [
+        "3605555"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "부평탑내과|": {
+      "seqno": "3613411",
+      "hospital": "부평탑내과",
+      "title": "오전 파트 방사선사(초음파사) 연봉 4,000만~6,000만 (8시-13시/토 12시)- 풀타임 협의가능",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "내과",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613411",
+      "seqnos": [
+        "3613411"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "연신내 신통방통의원|": {
+      "seqno": "3616058",
+      "hospital": "연신내 신통방통의원",
+      "title": "토요일 장기알바 구인합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616058",
+      "seqnos": [
+        "3616058"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "휴먼피부과|": {
+      "seqno": "3616054",
+      "hospital": "휴먼피부과",
+      "title": "★[서울대입구역 / 주5일 / 연차]★ 휴먼피부과 피부관리사 모집합니다 (경력)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "피부과",
+      "jobs": [
+        "코디",
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616054",
+      "seqnos": [
+        "3616054",
+        "3615304",
+        "3615302",
+        "3615298"
+      ],
+      "count": 4,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "필메디스의원|": {
+      "seqno": "3616053",
+      "hospital": "필메디스의원",
+      "title": "[서초동_필메디스]_심뇌혈관 중점 내과, 신경과 외래 간호사 선생님을 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616053",
+      "seqnos": [
+        "3616053"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "삼성바른내과의원|": {
+      "seqno": "3607756",
+      "hospital": "삼성바른내과의원",
+      "title": "길음역 삼성바른내과의원에서 일하실 간호조무사 충원합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-03",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607756",
+      "seqnos": [
+        "3607756"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "하남 웰니스내과의원|": {
+      "seqno": "3608366",
+      "hospital": "하남 웰니스내과의원",
+      "title": "[검진센터]내시경실 오전근무 간호조무사 충원 :)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "내과",
+      "jobs": [
+        "간호조무사",
+        "코디",
+        "원무"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608366",
+      "seqnos": [
+        "3608366",
+        "3611472",
+        "3609638",
+        "3608734",
+        "3614850",
+        "3614178"
+      ],
+      "count": 6,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "국민건강보험공단 일산병원|": {
+      "seqno": "3608032",
+      "hospital": "국민건강보험공단 일산병원",
+      "title": "2026년 4월 업무지원직 채용공고(간호직, 보건직, 사무직, 기능직)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-03",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608032",
+      "seqnos": [
+        "3608032"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "혜성플러스의원|": {
+      "seqno": "3610263",
+      "hospital": "혜성플러스의원",
+      "title": "[혜성플러스의원]피부과 간호조무사 선생님[1인]을 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610263",
+      "seqnos": [
+        "3610263"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "청량리 아산본마취통증의학과의원|": {
+      "seqno": "3613740",
+      "hospital": "청량리 아산본마취통증의학과의원",
+      "title": "[주5일/연차별도] 물리치료사 선생님 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "통증의학과",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613740",
+      "seqnos": [
+        "3613740"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "검단탑본정형외과의원|": {
+      "seqno": "3609478",
+      "hospital": "검단탑본정형외과의원",
+      "title": "★[신규개원/주5일/남자기숙사]검단탑본정형외과 방사선사선생님 구인합니다. ★",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [
+        "방사선사",
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-06",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609478",
+      "seqnos": [
+        "3609478",
+        "3609484"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "삼성드림이비인후과|": {
+      "seqno": "3609072",
+      "hospital": "삼성드림이비인후과",
+      "title": "주 5일 ) 삼성드림이비인후과 외래  코디네이터 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [
+        "코디"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-04",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609072",
+      "seqnos": [
+        "3609072"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "✨부천역튼튼척의원✨|": {
+      "seqno": "3609433",
+      "hospital": "✨부천역튼튼척의원✨",
+      "title": "✨주5일✨실수령 240~260 + @  부천역튼튼척의원에서 원무과 선생님 모십니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "원무",
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-10",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609433",
+      "seqnos": [
+        "3609433",
+        "3613260"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "고려튼튼마취통증의학과의원|": {
+      "seqno": "3616052",
+      "hospital": "고려튼튼마취통증의학과의원",
+      "title": "군포 고려튼튼통증의학과에서 함께 하실 간호조무사님을 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "통증의학과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616052",
+      "seqnos": [
+        "3616052"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울연합내과|": {
+      "seqno": "3616051",
+      "hospital": "서울연합내과",
+      "title": "함께 일할 간호조무사 선생님 1명 구합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616051",
+      "seqnos": [
+        "3616051"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "강서K병원|": {
+      "seqno": "3608942",
+      "hospital": "강서K병원",
+      "title": "강서K병원 원무과 직원 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "병원",
+      "jobs": [
+        "원무",
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608942",
+      "seqnos": [
+        "3608942",
+        "3605606",
+        "3610362",
+        "3608941"
+      ],
+      "count": 4,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "양재최의원|": {
+      "seqno": "3615237",
+      "hospital": "양재최의원",
+      "title": "매주목요일 +격주토요일,+평일연차시 대타 (고정직)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615237",
+      "seqnos": [
+        "3615237"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "은평포레스트한방병원|": {
+      "seqno": "3616050",
+      "hospital": "은평포레스트한방병원",
+      "title": "은평포레스트한방병원  친절한 시설관리 및 운행 직원 구인합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "한의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616050",
+      "seqnos": [
+        "3616050"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "테일러성형외과의원|": {
+      "seqno": "3607701",
+      "hospital": "테일러성형외과의원",
+      "title": "[정규직 주4일 근무] 압구정 테일러성형외과 수술실 팀원 모집",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "성형외과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-02",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607701",
+      "seqnos": [
+        "3607701"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울삼성호매실요양병원|": {
+      "seqno": "3606173",
+      "hospital": "서울삼성호매실요양병원",
+      "title": "[서울삼성호매실요양병원] 원무과 직원(주임 및 대리 급)을 모집합니다",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "요양병원",
+      "jobs": [
+        "원무"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-01",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3606173",
+      "seqnos": [
+        "3606173"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "교문통증의학과의원|": {
+      "seqno": "3616049",
+      "hospital": "교문통증의학과의원",
+      "title": "외래 간호과 선생님 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "통증의학과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616049",
+      "seqnos": [
+        "3616049"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "차메디컬센터의원|": {
+      "seqno": "3616048",
+      "hospital": "차메디컬센터의원",
+      "title": "향남 <오전> 같이 할 간호조무사선생님 모십니다(신규지원가능)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616048",
+      "seqnos": [
+        "3616048"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "하남허리튼튼신경외과|": {
+      "seqno": "3610483",
+      "hospital": "하남허리튼튼신경외과",
+      "title": "[주5일][추가채용]\"하남 허리튼튼\" 신경외과 물리치료사 선생님 채용합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "신경외과",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610483",
+      "seqnos": [
+        "3610483"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "수원효요양병원|": {
+      "seqno": "3616046",
+      "hospital": "수원효요양병원",
+      "title": "수원효요양병원에서 영양사 구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "요양병원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616046",
+      "seqnos": [
+        "3616046"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
     "연세김남수안과|": {
       "seqno": "3616047",
       "hospital": "연세김남수안과",
@@ -107,26 +1573,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614508",
       "seqnos": [
         "3614508"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "수원효요양병원|": {
-      "seqno": "3616046",
-      "hospital": "수원효요양병원",
-      "title": "수원효요양병원에서 영양사 구인합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "요양병원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616046",
-      "seqnos": [
-        "3616046"
       ],
       "count": 1,
       "status": "active",
@@ -276,7 +1722,7 @@
       "type": "요양병원",
       "jobs": [],
       "deadline": "",
-      "update_date": "2026-04-14",
+      "update_date": "2026-04-13",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614730",
       "seqnos": [
@@ -479,30 +1925,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "✨부천역튼튼척의원✨|": {
-      "seqno": "3613260",
-      "hospital": "✨부천역튼튼척의원✨",
-      "title": "✨일급15만원✨부천역튼튼척의원에서 간호조무사 선생님 모십니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사",
-        "원무"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-10",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613260",
-      "seqnos": [
-        "3613260",
-        "3609433"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "서울아산 다온재활의학과의원|": {
       "seqno": "3612519",
       "hospital": "서울아산 다온재활의학과의원",
@@ -580,7 +2002,7 @@
         "방사선사"
       ],
       "deadline": "",
-      "update_date": "2026-04-09",
+      "update_date": "2026-04-08",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611835",
       "seqnos": [
@@ -723,6 +2145,26 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
+    "신길튼튼365정형외과 의원|": {
+      "seqno": "3612972",
+      "hospital": "신길튼튼365정형외과 의원",
+      "title": "(주5일) 신길튼튼365 정형외과 의원에서 간호 조무사를 모집합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-10",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612972",
+      "seqnos": [
+        "3612972"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
     "성모 바른길 정형외과|": {
       "seqno": "3614193",
       "hospital": "성모 바른길 정형외과",
@@ -740,26 +2182,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614193",
       "seqnos": [
         "3614193"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "신길튼튼365정형외과 의원|": {
-      "seqno": "3612972",
-      "hospital": "신길튼튼365정형외과 의원",
-      "title": "(주5일) 신길튼튼365 정형외과 의원에서 간호 조무사를 모집합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-10",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612972",
-      "seqnos": [
-        "3612972"
       ],
       "count": 1,
       "status": "active",
@@ -785,28 +2207,6 @@
         "3613798"
       ],
       "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "부평탑내과|": {
-      "seqno": "3613411",
-      "hospital": "부평탑내과",
-      "title": "오전 파트 방사선사(초음파사) 연봉 4,000만~6,000만 (8시-13시/토 12시)- 풀타임 협의가능",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "내과",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613411",
-      "seqnos": [
-        "3613411"
-      ],
-      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -888,7 +2288,7 @@
         "물리치료사"
       ],
       "deadline": "",
-      "update_date": "2026-04-11",
+      "update_date": "2026-04-10",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611939",
       "seqnos": [
@@ -914,7 +2314,7 @@
       "type": "내과",
       "jobs": [],
       "deadline": "",
-      "update_date": "2026-04-05",
+      "update_date": "2026-04-04",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609223",
       "seqnos": [
@@ -1341,7 +2741,7 @@
         "간호조무사"
       ],
       "deadline": "",
-      "update_date": "2026-04-06",
+      "update_date": "2026-04-05",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608842",
       "seqnos": [
@@ -1363,7 +2763,7 @@
       "type": "치과",
       "jobs": [],
       "deadline": "",
-      "update_date": "2026-04-14",
+      "update_date": "2026-04-13",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614732",
       "seqnos": [
@@ -1589,7 +2989,7 @@
         "간호조무사"
       ],
       "deadline": "",
-      "update_date": "2026-04-14",
+      "update_date": "2026-04-13",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614742",
       "seqnos": [
@@ -1670,31 +3070,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "매직성형외과의원|": {
-      "seqno": "3616015",
-      "hospital": "매직성형외과의원",
-      "title": "간호조무사 신입,실습생가능,경력우대 세후260(세전290)부터 년차별 10증가 압구정매직성형외과",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "성형외과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616015",
-      "seqnos": [
-        "3616015",
-        "3615183",
-        "3615104",
-        "3614995"
-      ],
-      "count": 4,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "펑택제니스요양병원|": {
       "seqno": "3616014",
       "hospital": "펑택제니스요양병원",
@@ -1719,6 +3094,31 @@
         "3616010"
       ],
       "count": 5,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "매직성형외과의원|": {
+      "seqno": "3616015",
+      "hospital": "매직성형외과의원",
+      "title": "간호조무사 신입,실습생가능,경력우대 세후260(세전290)부터 년차별 10증가 압구정매직성형외과",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "성형외과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-14",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616015",
+      "seqnos": [
+        "3616015",
+        "3615183",
+        "3615104",
+        "3614995"
+      ],
+      "count": 4,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -2399,29 +3799,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "365웰 정형외과 재활의학과의원|": {
-      "seqno": "3609804",
-      "hospital": "365웰 정형외과 재활의학과의원",
-      "title": "(신사역 정형외과재활의학과) 주5일제 외래 선생님 초빙합니다. 6월초 오픈 예정",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "원무"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-13",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609804",
-      "seqnos": [
-        "3609804",
-        "3614506"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "마이셀의원|": {
       "seqno": "3613973",
       "hospital": "마이셀의원",
@@ -2758,21 +4135,16 @@
       "branch": "-",
       "type": "정형외과",
       "jobs": [
-        "방사선사",
-        "물리치료사",
-        "간호조무사"
+        "방사선사"
       ],
       "deadline": "",
       "update_date": "2026-04-14",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614952",
       "seqnos": [
-        "3614952",
-        "3614964",
-        "3614953",
-        "3614949"
+        "3614952"
       ],
-      "count": 4,
+      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -3036,51 +4408,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "정발산튼튼척의원|": {
-      "seqno": "3615971",
-      "hospital": "정발산튼튼척의원",
-      "title": "⭐(입사일부터 주 5일 / 탄력근무제) 간호조무사 선생님을 채용합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사",
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615971",
-      "seqnos": [
-        "3615971",
-        "3614974"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "아미나요양병원|": {
-      "seqno": "3610449",
-      "hospital": "아미나요양병원",
-      "title": "[ 아미나요양병원 ] 주16시간 약사님 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "요양병원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610449",
-      "seqnos": [
-        "3610449",
-        "3610326"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "모두탑365정형외과의원 발산점|": {
       "seqno": "3614077",
       "hospital": "모두탑365정형외과의원 발산점",
@@ -3185,8 +4512,7 @@
       "jobs": [
         "방사선사",
         "원무",
-        "물리치료사",
-        "간호조무사"
+        "물리치료사"
       ],
       "deadline": "",
       "update_date": "2026-04-14",
@@ -3196,11 +4522,9 @@
         "3615967",
         "3615903",
         "3613742",
-        "3614623",
-        "3610218",
-        "3610368"
+        "3614623"
       ],
-      "count": 6,
+      "count": 4,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -3320,31 +4644,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "고려정형외과|": {
-      "seqno": "3605590",
-      "hospital": "고려정형외과",
-      "title": "오전만 근무(주5일) 간호조무사  모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3605590",
-      "seqnos": [
-        "3605590",
-        "3612939",
-        "3613845",
-        "3605926"
-      ],
-      "count": 4,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "제니스본튼튼의원|": {
       "seqno": "3613210",
       "hospital": "제니스본튼튼의원",
@@ -3360,48 +4659,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613210",
       "seqnos": [
         "3613210"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "강영목정형외과|": {
-      "seqno": "3612150",
-      "hospital": "강영목정형외과",
-      "title": "간호조무사 구인합니다.(주5일근무. IM,IV가능자. )",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-09",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612150",
-      "seqnos": [
-        "3612150"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "오블리브의원|": {
-      "seqno": "3608818",
-      "hospital": "오블리브의원",
-      "title": "[오블리브 / 송도 / TO 3명 ] 센터 확장으로 인한 도수치료사 채용 (주4일 / 확실한 보상)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-04",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608818",
-      "seqnos": [
-        "3608818"
       ],
       "count": 1,
       "status": "active",
@@ -3425,6 +4682,26 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610499",
       "seqnos": [
         "3610499"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "오블리브의원|": {
+      "seqno": "3608818",
+      "hospital": "오블리브의원",
+      "title": "[오블리브 / 송도 / TO 3명 ] 센터 확장으로 인한 도수치료사 채용 (주4일 / 확실한 보상)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-04",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608818",
+      "seqnos": [
+        "3608818"
       ],
       "count": 1,
       "status": "active",
@@ -3540,28 +4817,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "삼성바른내과의원|": {
-      "seqno": "3607756",
-      "hospital": "삼성바른내과의원",
-      "title": "길음역 삼성바른내과의원에서 일하실 간호조무사 충원합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "내과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-03",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607756",
-      "seqnos": [
-        "3607756"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "관악탑마취통증의학과의원|": {
       "seqno": "3615959",
       "hospital": "관악탑마취통증의학과의원",
@@ -3640,18 +4895,15 @@
       "sido": "기타",
       "branch": "-",
       "type": "정형외과",
-      "jobs": [
-        "물리치료사"
-      ],
+      "jobs": [],
       "deadline": "",
       "update_date": "2026-04-14",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615955",
       "seqnos": [
-        "3615955",
-        "3605992"
+        "3615955"
       ],
-      "count": 2,
+      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -3674,34 +4926,6 @@
         "3615952"
       ],
       "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "연세아산올케어정형외과의원|": {
-      "seqno": "3615432",
-      "hospital": "연세아산올케어정형외과의원",
-      "title": "★[마포구/급여우대]★ 연세아산올케어정형외과에서 원무과 직원(사원급)을 충원합니다!(경력)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "원무",
-        "간호조무사",
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615432",
-      "seqnos": [
-        "3615432",
-        "3615444",
-        "3615434",
-        "3615431",
-        "3615430"
-      ],
-      "count": 5,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -4098,31 +5322,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "운정성모정형외과의원|": {
-      "seqno": "3615940",
-      "hospital": "운정성모정형외과의원",
-      "title": "※ '운정성모365정형외과'에서 '물리치료사' 선생님 매뉴얼알바구인합니다. (4월 15일, 20일, 27일)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "물리치료사",
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615940",
-      "seqnos": [
-        "3615940",
-        "3607630",
-        "3615071"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "진메디텍 주식회사|": {
       "seqno": "3615939",
       "hospital": "진메디텍 주식회사",
@@ -4343,26 +5542,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "양재최의원|": {
-      "seqno": "3615237",
-      "hospital": "양재최의원",
-      "title": "매주목요일 +격주토요일,+평일연차시 대타 (고정직)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615237",
-      "seqnos": [
-        "3615237"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "파주한빛병원|": {
       "seqno": "3615435",
       "hospital": "파주한빛병원",
@@ -4472,6 +5651,26 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
+    "삼성정형외과|": {
+      "seqno": "3609604",
+      "hospital": "삼성정형외과",
+      "title": "삼성정형외과의원(백운역,1호선)  - 물리치료 선생님(1명) 구인합니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "정형외과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-06",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609604",
+      "seqnos": [
+        "3609604"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
     "서울에이스정형외과의원|": {
       "seqno": "3613236",
       "hospital": "서울에이스정형외과의원",
@@ -4493,26 +5692,6 @@
         "3613626"
       ],
       "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "삼성정형외과|": {
-      "seqno": "3609604",
-      "hospital": "삼성정형외과",
-      "title": "삼성정형외과의원(백운역,1호선)  - 물리치료 선생님(1명) 구인합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-06",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609604",
-      "seqnos": [
-        "3609604"
-      ],
-      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -4871,7 +6050,7 @@
         "임상병리사"
       ],
       "deadline": "",
-      "update_date": "2026-04-09",
+      "update_date": "2026-04-08",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611850",
       "seqnos": [
@@ -5061,56 +6240,10 @@
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614511",
       "seqnos": [
+        "3614511",
         "3614511"
       ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "흥인탑이비인후과|": {
-      "seqno": "3610146",
-      "hospital": "흥인탑이비인후과",
-      "title": "(1, 4호선 동대문역) 이비인후과 간호조무사 선생님 초빙합니다.(신규환영)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "기타",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610146",
-      "seqnos": [
-        "3610146"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "강서K병원|": {
-      "seqno": "3605606",
-      "hospital": "강서K병원",
-      "title": "*공급실 경력자 모집합니다 *",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "간호조무사",
-        "원무"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3605606",
-      "seqnos": [
-        "3605606",
-        "3610362",
-        "3608941"
-      ],
-      "count": 3,
+      "count": 2,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -6742,29 +7875,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "답십리탑정형외과|": {
-      "seqno": "3607617",
-      "hospital": "답십리탑정형외과",
-      "title": "주5일) 답십리탑정형외과에서 원무과 선생님 구인합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "원무"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607617",
-      "seqnos": [
-        "3607617",
-        "3613711"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "수서서울이비인후과|": {
       "seqno": "3611773",
       "hospital": "수서서울이비인후과",
@@ -6943,28 +8053,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "서울 메타비뇨의학과|": {
-      "seqno": "3614614",
-      "hospital": "서울 메타비뇨의학과",
-      "title": "마포구 비뇨기과 남자 간호조무사 채용공고",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "기타",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-13",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614614",
-      "seqnos": [
-        "3614614"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "분당 정자역 정형외과의원|": {
       "seqno": "3613913",
       "hospital": "분당 정자역 정형외과의원",
@@ -6982,6 +8070,28 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613913",
       "seqnos": [
         "3613913"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "서울 메타비뇨의학과|": {
+      "seqno": "3614614",
+      "hospital": "서울 메타비뇨의학과",
+      "title": "마포구 비뇨기과 남자 간호조무사 채용공고",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-13",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614614",
+      "seqnos": [
+        "3614614"
       ],
       "count": 1,
       "status": "active",
@@ -7096,28 +8206,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611455",
       "seqnos": [
         "3611455"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "굿본재활의학과 홍대점|": {
-      "seqno": "3613801",
-      "hospital": "굿본재활의학과 홍대점",
-      "title": "(홍대점) 굿본정형외과재활의학과에서 4/20~25일(월~토) 알바 가능하신 방사선사 선생님을 모집합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "기타",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613801",
-      "seqnos": [
-        "3613801"
       ],
       "count": 1,
       "status": "active",
@@ -7658,28 +8746,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "바른몸재활의학과|": {
-      "seqno": "3610575",
-      "hospital": "바른몸재활의학과",
-      "title": "주4일 송파 바른몸재활의학과에서 간호조무사  채용 세후 230",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "기타",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610575",
-      "seqnos": [
-        "3610575"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "오쿨리한방병원|": {
       "seqno": "3615443",
       "hospital": "오쿨리한방병원",
@@ -7746,29 +8812,6 @@
         "3612943"
       ],
       "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "한국정형외과|": {
-      "seqno": "3615441",
-      "hospital": "한국정형외과",
-      "title": "04월   18일 (토)  방사선사 알바 쌤 구합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615441",
-      "seqnos": [
-        "3615441",
-        "3615109"
-      ],
-      "count": 2,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -7873,7 +8916,7 @@
       "type": "정형외과",
       "jobs": [],
       "deadline": "",
-      "update_date": "2026-04-10",
+      "update_date": "2026-04-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612616",
       "seqnos": [
@@ -7966,28 +9009,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607606",
       "seqnos": [
         "3607606"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "비에스코아이비인후과병원|": {
-      "seqno": "3615368",
-      "hospital": "비에스코아이비인후과병원",
-      "title": "BS코아이비인후과병원 원무팀 신입 및 경력직(주임~과장) 구인",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "원무"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615368",
-      "seqnos": [
-        "3615368"
       ],
       "count": 1,
       "status": "active",
@@ -8640,7 +9661,7 @@
       "type": "병원",
       "jobs": [],
       "deadline": "",
-      "update_date": "2026-04-04",
+      "update_date": "2026-04-03",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608615",
       "seqnos": [
@@ -10478,31 +11499,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "휴먼피부과|": {
-      "seqno": "3615304",
-      "hospital": "휴먼피부과",
-      "title": "#[주5일/연차]# 휴먼피부과(강서점) 코디네이터(경력) 정규직 충원합니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "피부과",
-      "jobs": [
-        "코디",
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615304",
-      "seqnos": [
-        "3615304",
-        "3615302",
-        "3615298"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "아너스치과교정과치과의원|": {
       "seqno": "3615303",
       "hospital": "아너스치과교정과치과의원",
@@ -10534,7 +11530,7 @@
       "type": "의원",
       "jobs": [],
       "deadline": "",
-      "update_date": "2026-04-08",
+      "update_date": "2026-04-07",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
       "seqnos": [
@@ -11082,28 +12078,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "그린재활의학과의원|": {
-      "seqno": "3613423",
-      "hospital": "그린재활의학과의원",
-      "title": "(남양주) [평내호평역 / 남자기숙사제공] 그린재활의학과 에서 근무하실 물리치료사 선생님을 모십니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613423",
-      "seqnos": [
-        "3613423"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "호평진마취통증|": {
       "seqno": "3610768",
       "hospital": "호평진마취통증",
@@ -11325,26 +12299,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "계양척척통증의학과의원|": {
-      "seqno": "3615274",
-      "hospital": "계양척척통증의학과의원",
-      "title": "★주 5일 인천 계산동에서 간호 조무사 선생님 1분을 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "통증의학과",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615274",
-      "seqnos": [
-        "3615274"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "차봉연엔도내과의원|": {
       "seqno": "3615190",
       "hospital": "차봉연엔도내과의원",
@@ -11516,18 +12470,15 @@
       "sido": "기타",
       "branch": "-",
       "type": "의원",
-      "jobs": [
-        "방사선사"
-      ],
+      "jobs": [],
       "deadline": "",
       "update_date": "2026-04-14",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615267",
       "seqnos": [
-        "3615267",
-        "3614979"
+        "3615267"
       ],
-      "count": 2,
+      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -12189,10 +13140,9 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3606375",
       "seqnos": [
         "3606375",
-        "3614197",
-        "3606373"
+        "3614197"
       ],
-      "count": 3,
+      "count": 2,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -12778,29 +13728,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "신풍바른재활의학과의원|": {
-      "seqno": "3613975",
-      "hospital": "신풍바른재활의학과의원",
-      "title": "<신풍바른재활의학과의원> 충격파 전담 선생님 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-12",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613975",
-      "seqnos": [
-        "3613975",
-        "3613976"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "정해복지부설 한신메디피아의원|": {
       "seqno": "3615223",
       "hospital": "정해복지부설 한신메디피아의원",
@@ -12847,35 +13774,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "하남 웰니스내과의원|": {
-      "seqno": "3609638",
-      "hospital": "하남 웰니스내과의원",
-      "title": "[검진센터] 원무팀 사원 채용 :)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "내과",
-      "jobs": [
-        "원무",
-        "간호조무사",
-        "코디"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609638",
-      "seqnos": [
-        "3609638",
-        "3608734",
-        "3614178",
-        "3614850",
-        "3611472",
-        "3608366"
-      ],
-      "count": 6,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "여의도라이프케어내과검진센터|": {
       "seqno": "3611862",
       "hospital": "여의도라이프케어내과검진센터",
@@ -12885,18 +13783,16 @@
       "branch": "-",
       "type": "내과",
       "jobs": [
-        "방사선사",
-        "코디"
+        "방사선사"
       ],
       "deadline": "",
       "update_date": "2026-04-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611862",
       "seqnos": [
-        "3611862",
-        "3606302"
+        "3611862"
       ],
-      "count": 2,
+      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -13006,28 +13902,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "뉴서울의원|": {
-      "seqno": "3612921",
-      "hospital": "뉴서울의원",
-      "title": "간호조무사 모집합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-10",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612921",
-      "seqnos": [
-        "3612921"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "더바른내과의원|": {
       "seqno": "3614170",
       "hospital": "더바른내과의원",
@@ -13070,28 +13944,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614703",
       "seqnos": [
         "3614703"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "하남허리튼튼신경외과|": {
-      "seqno": "3610483",
-      "hospital": "하남허리튼튼신경외과",
-      "title": "[주5일][추가채용]\"하남 허리튼튼\" 신경외과 물리치료사 선생님 채용합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "신경외과",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610483",
-      "seqnos": [
-        "3610483"
       ],
       "count": 1,
       "status": "active",
@@ -13530,48 +14382,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "혜성플러스의원|": {
-      "seqno": "3610263",
-      "hospital": "혜성플러스의원",
-      "title": "[혜성플러스의원]피부과 간호조무사 선생님[1인]을 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-07",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3610263",
-      "seqnos": [
-        "3610263"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "국민건강보험공단 일산병원|": {
-      "seqno": "3608032",
-      "hospital": "국민건강보험공단 일산병원",
-      "title": "2026년 4월 업무지원직 채용공고(간호직, 보건직, 사무직, 기능직)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-03",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608032",
-      "seqnos": [
-        "3608032"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "참편안한신경외과의원|": {
       "seqno": "3615192",
       "hospital": "참편안한신경외과의원",
@@ -13703,28 +14513,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "탑아산내과의원|": {
-      "seqno": "3609500",
-      "hospital": "탑아산내과의원",
-      "title": "(부천 신중동역) 탑아산내과 간호조무사 선생님 모십니다. (오전 우대, 풀타임 협의가능, 토요일 아르바이트 가능)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "내과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-06",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609500",
-      "seqnos": [
-        "3609500"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "365마디팔팔의원|": {
       "seqno": "3609448",
       "hospital": "365마디팔팔의원",
@@ -13742,6 +14530,28 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609448",
       "seqnos": [
         "3609448"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-14"
+    },
+    "탑아산내과의원|": {
+      "seqno": "3609500",
+      "hospital": "탑아산내과의원",
+      "title": "(부천 신중동역) 탑아산내과 간호조무사 선생님 모십니다. (오전 우대, 풀타임 협의가능, 토요일 아르바이트 가능)",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-04-06",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609500",
+      "seqnos": [
+        "3609500"
       ],
       "count": 1,
       "status": "active",
@@ -13898,28 +14708,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615179",
       "seqnos": [
         "3615179"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "쌍문성모튼튼의원|": {
-      "seqno": "3613452",
-      "hospital": "쌍문성모튼튼의원",
-      "title": "[쌍문역,도봉,강북,창동,노원]방사선사 팀장 구인(정형외과)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613452",
-      "seqnos": [
-        "3613452"
       ],
       "count": 1,
       "status": "active",
@@ -14273,29 +15061,6 @@
       "seqnos": [
         "3615161",
         "3609176"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "성북탑정형외과신경외과의원|": {
-      "seqno": "3615160",
-      "hospital": "성북탑정형외과신경외과의원",
-      "title": "주5일제) 성북탑정형외과신경외과에서 도수치료사선생님 구인합니다.   일요일근무 X",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3615160",
-      "seqnos": [
-        "3615160",
-        "3615159"
       ],
       "count": 2,
       "status": "active",
@@ -15595,28 +16360,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "브레인척척신경과재활의학과의원|": {
-      "seqno": "3613467",
-      "hospital": "브레인척척신경과재활의학과의원",
-      "title": "[강서/마곡]월/금  4시간, 토요일 월2회, 기본물리치료사. 파트/알바구인",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-11",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613467",
-      "seqnos": [
-        "3613467"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "삼성탑내과의원|": {
       "seqno": "3615082",
       "hospital": "삼성탑내과의원",
@@ -16154,7 +16897,7 @@
         "간호조무사"
       ],
       "deadline": "",
-      "update_date": "2026-04-10",
+      "update_date": "2026-04-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612627",
       "seqnos": [
@@ -16176,7 +16919,7 @@
         "간호조무사"
       ],
       "deadline": "",
-      "update_date": "2026-04-08",
+      "update_date": "2026-04-07",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611013",
       "seqnos": [
@@ -17028,20 +17771,16 @@
       "branch": "-",
       "type": "의원",
       "jobs": [
-        "물리치료사",
-        "방사선사",
-        "임상병리사"
+        "물리치료사"
       ],
       "deadline": "",
       "update_date": "2026-04-14",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614969",
       "seqnos": [
-        "3614969",
-        "3614950",
-        "3614939"
+        "3614969"
       ],
-      "count": 3,
+      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     },
@@ -17153,28 +17892,6 @@
       "status": "active",
       "last_seen": "2026-04-14"
     },
-    "한울요양병원|": {
-      "seqno": "3614997",
-      "hospital": "한울요양병원",
-      "title": "한울요양병원에서 임상병리사 모집합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "요양병원",
-      "jobs": [
-        "임상병리사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614997",
-      "seqnos": [
-        "3614997"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
     "365먹골탑정형외과의원|": {
       "seqno": "3614552",
       "hospital": "365먹골탑정형외과의원",
@@ -17233,7 +17950,7 @@
         "물리치료사"
       ],
       "deadline": "",
-      "update_date": "2026-04-03",
+      "update_date": "2026-04-02",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3607732",
       "seqnos": [
@@ -17566,745 +18283,6 @@
         "3614359"
       ],
       "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "남부밝은안과의원|": {
-      "seqno": "3614796",
-      "hospital": "남부밝은안과의원",
-      "title": "간호조무사 모집",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614796",
-      "seqnos": [
-        "3614796"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "삼성척재활의학과|": {
-      "seqno": "3614697",
-      "hospital": "삼성척재활의학과",
-      "title": "창동역 삼성척재활센터  중추재활도수치료사 초빙",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "기타",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-13",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614697",
-      "seqnos": [
-        "3614697"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "강남병원(용인)|": {
-      "seqno": "3614977",
-      "hospital": "강남병원(용인)",
-      "title": "[강남병원] 종합병원 원내 약제팀 약사 모집",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614977",
-      "seqnos": [
-        "3614977",
-        "3614972"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "애플산부인과 하남미사점|": {
-      "seqno": "3614976",
-      "hospital": "애플산부인과 하남미사점",
-      "title": "[애플산부인과 하남미사점]♥♥♥주5일 40시간/추가수당/간호조무사♥♥♥모집합니다~!",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "산부인과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614976",
-      "seqnos": [
-        "3614976"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "슈퍼맨정형외과|": {
-      "seqno": "3612095",
-      "hospital": "슈퍼맨정형외과",
-      "title": "[주 5일 근무]정형외과  간호조무사 구인합니다! [동대문구 장안동]",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-09",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612095",
-      "seqnos": [
-        "3612095"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "성모마디튼튼재활의학과의원|": {
-      "seqno": "3614973",
-      "hospital": "성모마디튼튼재활의학과의원",
-      "title": "[일급 11]부천 소사구 성모마디튼튼재활의학과 4/18(토) 일촬 및 씨암 촬영 방사선사선생님 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614973",
-      "seqnos": [
-        "3614973"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "김태형내과|": {
-      "seqno": "3614971",
-      "hospital": "김태형내과",
-      "title": "내과 경력 있으신, 간호조무사 선생님  구인합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "내과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614971",
-      "seqnos": [
-        "3614971"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "고려바른정형외과의원|": {
-      "seqno": "3614131",
-      "hospital": "고려바른정형외과의원",
-      "title": "용인,모현 주5일) 고려바른정형외과에서 간호조무사선생님을 모십니다.(신입가능).",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-13",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614131",
-      "seqnos": [
-        "3614131",
-        "3614132"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "아리랑가정의원|": {
-      "seqno": "3614943",
-      "hospital": "아리랑가정의원",
-      "title": "[급구]크리스찬 간호조무사 IV경력자 2개월 단기근무 모집합니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614943",
-      "seqnos": [
-        "3614943"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "서울제일요양병원|": {
-      "seqno": "3614109",
-      "hospital": "서울제일요양병원",
-      "title": "장애인 특별전형 [서울제일요양병원] 환자 이송선생님 구인합니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "요양병원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-13",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614109",
-      "seqnos": [
-        "3614109"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "더와이즈헬스케어의원|": {
-      "seqno": "3614967",
-      "hospital": "더와이즈헬스케어의원",
-      "title": "더와이즈헬스케어의원 오전근무 여자 방사선사 구인",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614967",
-      "seqnos": [
-        "3614967"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "나드라의원|": {
-      "seqno": "3614966",
-      "hospital": "나드라의원",
-      "title": "((분당)) 접수데스크 .예약,수납 한분 모셔요~",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "접수"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614966",
-      "seqnos": [
-        "3614966"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "백운굿마디의원|": {
-      "seqno": "3611829",
-      "hospital": "백운굿마디의원",
-      "title": "[ 안양,수원,성남 ] 5월8일(금) 의왕시  방사선사 아르바이트 구인",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-09",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611829",
-      "seqnos": [
-        "3611829"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "중앙대의료원 교육협력 현대병원|": {
-      "seqno": "3614963",
-      "hospital": "중앙대의료원 교육협력 현대병원",
-      "title": "현대병원 영양관리팀 영양사 채용",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614963",
-      "seqnos": [
-        "3614963"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "동인성모정형외과|": {
-      "seqno": "3609120",
-      "hospital": "동인성모정형외과",
-      "title": "4월 27일(월) 방사선사  알바 모십니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-04",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609120",
-      "seqnos": [
-        "3609120"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "연세쉬즈 산부인과|": {
-      "seqno": "3614965",
-      "hospital": "연세쉬즈 산부인과",
-      "title": "[신림역/4-5일]산부인과 외래  (산부인과 경력자 환영)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "산부인과",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614965",
-      "seqnos": [
-        "3614965"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "바로튼튼신경외과의원|": {
-      "seqno": "3608653",
-      "hospital": "바로튼튼신경외과의원",
-      "title": "화성시 남양읍 바로튼튼신경외과에서 방사선사 모집합니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "신경외과",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-04",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608653",
-      "seqnos": [
-        "3608653"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "성모베스트정형외과|": {
-      "seqno": "3614961",
-      "hospital": "성모베스트정형외과",
-      "title": "광명하안동(4/20~4/25)엑스레이,씨암 알바 구인 합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614961",
-      "seqnos": [
-        "3614961"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "효성요양병원|": {
-      "seqno": "3614959",
-      "hospital": "효성요양병원",
-      "title": "간호사 선생님(D/E) 초빙 (※ 초보자, 경력 단절 환영※)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "요양병원",
-      "jobs": [
-        "간호사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614959",
-      "seqnos": [
-        "3614959"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "풍산의료재단 동부제일병원|": {
-      "seqno": "3614958",
-      "hospital": "풍산의료재단 동부제일병원",
-      "title": "풍산의료재단 동부제일병원 물리치료사 계약직 채용 공고",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614958",
-      "seqnos": [
-        "3614958"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "공안과병원|": {
-      "seqno": "3612624",
-      "hospital": "공안과병원",
-      "title": "공안과 병원에서 함께 하실 방사선사 선생님 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-10",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612624",
-      "seqnos": [
-        "3612624"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "서울송도병원|": {
-      "seqno": "3612781",
-      "hospital": "서울송도병원",
-      "title": "[서울송도병원] 병동 간호조무사 모집",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-10",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612781",
-      "seqnos": [
-        "3612781",
-        "3613231",
-        "3612790"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "365연세튼튼재활의학과의원|": {
-      "seqno": "3614951",
-      "hospital": "365연세튼튼재활의학과의원",
-      "title": "★주5일 근무+월차 지급!★ 안양  / 재활의학과 / 물리치료사 선생님 모십니다!",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614951",
-      "seqnos": [
-        "3614951"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "저스트병원|": {
-      "seqno": "3609293",
-      "hospital": "저스트병원",
-      "title": "[저스트병원]  물리치료사 계약직 구인합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "물리치료사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-05",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3609293",
-      "seqnos": [
-        "3609293"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "신사중앙의원|": {
-      "seqno": "3611290",
-      "hospital": "신사중앙의원",
-      "title": "임상병리사  선생님 구인합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "임상병리사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-08",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611290",
-      "seqnos": [
-        "3611290"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "인천 더하다한방병원|": {
-      "seqno": "3614948",
-      "hospital": "인천 더하다한방병원",
-      "title": "[인천 더하다 한방병원] 데스크 사원 채용합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "한의원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614948",
-      "seqnos": [
-        "3614948"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "위드미요양병원|": {
-      "seqno": "3614945",
-      "hospital": "위드미요양병원",
-      "title": "[위드미요양병원]  일반병동 간호조무사 채용합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "요양병원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614945",
-      "seqnos": [
-        "3614945"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "척본의원|": {
-      "seqno": "3614809",
-      "hospital": "척본의원",
-      "title": "성수동  척본의원에서  접수,수납 선생님을  구인합니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "의원",
-      "jobs": [
-        "접수"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614809",
-      "seqnos": [
-        "3614809"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "오산서울어린이병원|": {
-      "seqno": "3614942",
-      "hospital": "오산서울어린이병원",
-      "title": "임상병리사 주말오전(토요일 일요일 9시~13시) 아르바이트 모집",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "임상병리사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614942",
-      "seqnos": [
-        "3614942"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "생기한의원|": {
-      "seqno": "3605995",
-      "hospital": "생기한의원",
-      "title": "[주4일근무] *계약직(6개월) 신중동역 생기한의원부천점 치료실 간호조무사 선생님 모십니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "한의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-03-31",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3605995",
-      "seqnos": [
-        "3605995"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "한길정형외과의원|": {
-      "seqno": "3614941",
-      "hospital": "한길정형외과의원",
-      "title": "** 주5일근무**  간호조무사 선생님  채용합니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "정형외과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614941",
-      "seqnos": [
-        "3614941"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "강동다나365한의원|": {
-      "seqno": "3608064",
-      "hospital": "강동다나365한의원",
-      "title": "강동구 한의원 간호조무사 선생님 모집합니다.",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "한의원",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-09",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3608064",
-      "seqnos": [
-        "3608064",
-        "3612041"
-      ],
-      "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "제일조은병원|": {
-      "seqno": "3614934",
-      "hospital": "제일조은병원",
-      "title": "원무과 선생님 모십니다 (주간/ 야간 각각 모집)",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "병원",
-      "jobs": [
-        "원무"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614934",
-      "seqnos": [
-        "3614934"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-14"
-    },
-    "서울N마취통증의학과의원|": {
-      "seqno": "3605304",
-      "hospital": "서울N마취통증의학과의원",
-      "title": "여의도 서울N통증 의학 과에서 함께 근무하실 간호 파트 선생님을 모십니다",
-      "region": "",
-      "sido": "기타",
-      "branch": "-",
-      "type": "통증의학과",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-03-31",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3605304",
-      "seqnos": [
-        "3605304"
-      ],
-      "count": 1,
       "status": "active",
       "last_seen": "2026-04-14"
     }
