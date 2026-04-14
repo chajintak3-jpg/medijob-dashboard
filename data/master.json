@@ -642,14 +642,14 @@
         "간호사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "",
+      "reg_date": "2026-02-10",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3574644",
       "seqnos": [
         "3574644"
       ],
       "count": 1,
-      "first_seen": "2026-04-14",
+      "first_seen": "2026-02-10",
       "last_seen": "2026-04-14",
       "closed_date": null,
       "status": "active"
@@ -666,14 +666,14 @@
         "간호조무사"
       ],
       "deadline": "채용시까지",
-      "reg_date": "5일전",
+      "reg_date": "2026-04-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611741",
       "seqnos": [
         "3611741"
       ],
       "count": 1,
-      "first_seen": "5일전",
+      "first_seen": "2026-04-09",
       "last_seen": "2026-04-14",
       "closed_date": null,
       "status": "active"
