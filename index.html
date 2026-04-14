@@ -260,7 +260,7 @@ function makeTable(data) {
       <td>${jobTags||'<span style="color:var(--gray3);font-size:11px">-</span>'}</td>
       <td>${cntBadge}</td>
       <td>${statusTag}</td>
-      <td class="date-cell">${esc(d.update_date||d.last_seen||''}</td>
+      <td class="date-cell">${esc(d.first_seen||'')}</td>
       <td class="date-cell">${esc(d.closed_date||'-')}</td>
     </tr>`;
   }).join('');
@@ -285,7 +285,7 @@ function makeTable(data) {
 
 function renderAll(hospitals) {
   const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 14);
-  allData = Object.values(hospitals).filter(d => (d.update_date||d.last_seen) && new Date(d.update_date||d.last_seen) >= cutoff).sort((a,b)=>{
+  allData = Object.values(hospitals).filter(d => d.last_seen && new Date(d.last_seen) >= cutoff).sort((a,b)=>{
     if (a.status !== b.status) return a.status==='active' ? -1 : 1;
     return (b.first_seen||'').localeCompare(a.first_seen||'');
   });
