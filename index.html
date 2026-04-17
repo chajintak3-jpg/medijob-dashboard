@@ -129,7 +129,7 @@ function makeTable(data){
     <td data-label="종별"><span class="type-tag">${esc(d.type||'기타')}</span></td>
     <td data-label="지역" style="color:var(--gray4)">${esc(d.region||'')}</td>
     <td data-label="공고제목">${esc(d.title||'')}</td>
-    <td data-label="최근업데이트" class="date-cell td-date">${esc(d.update_date||d.last_seen||'')}</td>
+    <td data-label="마감일" class="date-cell td-date">${esc(d.deadline||'-')}</td>
   </tr>`).join('');
   return`<table>
     <thead><tr>
