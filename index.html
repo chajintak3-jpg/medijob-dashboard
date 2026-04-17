@@ -172,10 +172,17 @@ function switchTab(tab){
 function renderAll(hospitals){
   allData=Object.values(hospitals);
   // 15일 필터
-  const cutoff=new Date(Date.now()+9*3600000);
-  cutoff.setDate(cutoff.getDate()-14);
-  const cutStr=cutoff.toISOString().slice(0,10);
-  allData=allData.filter(d=>(d.update_date||d.last_seen||'')>=cutStr);
+  // 마감일 기준 필터 (crawl_local.py와 동일)
+  const today=new Date(Date.now()+9*3600000);
+  const expStr=new Date(today.getTime()-7*864e5).toISOString().slice(0,10);
+  const keepStr=new Date(today.getTime()-30*864e5).toISOString().slice(0,10);
+  allData=allData.filter(d=>{
+    const dl=(d.deadline||'').replace(/\./g,'-');
+    const ls=d.last_seen||'';
+    if(dl&&dl!=='마감'&&dl!=='채용시까지'&&dl!=='') return dl>=expStr;
+    if(dl==='마감') return ls>=expStr;
+    return ls>=keepStr;
+  });
 
   // 탭별 카운트
   const counts={};
