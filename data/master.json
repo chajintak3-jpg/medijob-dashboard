@@ -253,7 +253,7 @@
       "type": "정형외과",
       "jobs": [],
       "deadline": "채용시까지",
-      "update_date": "2026-04-15",
+      "update_date": "2026-04-14",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616327",
       "seqnos": [
@@ -353,6 +353,127 @@
       "count": 2,
       "status": "active",
       "last_seen": "2026-04-17"
+    },
+    "고덕삼성본재활의학과의원|서울 > 강동구": {
+      "seqno": "3591965",
+      "hospital": "고덕삼성본재활의학과의원",
+      "title": "★신규개원★주5일근무+연3일 휴가지급[고덕역,강동,하남]원무,접수 구인(정형외과).",
+      "region": "서울 > 강동구",
+      "sido": "서울",
+      "branch": "강동지점",
+      "type": "의원",
+      "jobs": [
+        "원무",
+        "접수",
+        "임상병리사",
+        "간호조무사",
+        "방사선사",
+        "물리치료사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-03-10",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3591965",
+      "seqnos": [
+        "3591965",
+        "3591966",
+        "3591968",
+        "3591970",
+        "3591972",
+        "3591974"
+      ],
+      "count": 6,
+      "status": "active",
+      "last_seen": "2026-04-17",
+      "first_seen": "2026-04-17"
+    },
+    "아산이웃마취통증의학과|서울 > 송파구": {
+      "seqno": "3618637",
+      "hospital": "아산이웃마취통증의학과",
+      "title": "(5월초 개원예정) 아산이웃마취통의학과에서 함께  할  직원을 모십니다!",
+      "region": "서울 > 송파구",
+      "sido": "서울",
+      "branch": "강동지점",
+      "type": "통증의학과",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618637",
+      "seqnos": [
+        "3618637"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17",
+      "first_seen": "2026-04-17"
+    },
+    "성모원탑365신경외과의원|서울 > 강북구": {
+      "seqno": "3570451",
+      "hospital": "성모원탑365신경외과의원",
+      "title": "★신규개원★주5일+*법정연차별도*[삼양사거리역,강북,미아]물리치료사 구인(정형외과)",
+      "region": "서울 > 강북구",
+      "sido": "서울",
+      "branch": "북부지점",
+      "type": "신경외과",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-02-03",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3570451",
+      "seqnos": [
+        "3570451"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17",
+      "first_seen": "2026-04-17"
+    },
+    "주식회사 진설|": {
+      "seqno": "3562770",
+      "hospital": "주식회사 진설",
+      "title": "(서울 서초구 양재) (방사선사)통증전문의원들을 개원,컨설팅하는 진설에서 병원의 중간관리자님을 모십니다.",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "",
+      "update_date": "2026-01-21",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3562770",
+      "seqnos": [
+        "3562770"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17",
+      "first_seen": "2026-04-17"
+    },
+    "메디포랩 주식회사|": {
+      "seqno": "3586343",
+      "hospital": "메디포랩 주식회사",
+      "title": "[대구/경북]통증의원 개원컨설팅 '메디포랩' 중간관리자 모집",
+      "region": "",
+      "sido": "기타",
+      "branch": "-",
+      "type": "기타",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-03-03",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3586343",
+      "seqnos": [
+        "3586343"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17",
+      "first_seen": "2026-04-17"
     }
   },
   "last_updated": "2026-04-17"
