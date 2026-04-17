@@ -1,5 +1,290 @@
 {
   "hospitals": {
+    "은평365든든내과마취통증의학과의원|서울 > 은평구": {
+      "seqno": "3617668",
+      "hospital": "은평365든든내과마취통증의학과의원",
+      "title": "★5월 중 개원★  임상병리사[오전파트만] 선생님 모집합니다.",
+      "region": "서울 > 은평구",
+      "sido": "서울",
+      "branch": "서부지점",
+      "type": "내과",
+      "jobs": [
+        "임상병리사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-16",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617668",
+      "seqnos": [
+        "3617668"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "모두탑365정형외과의원 수지점|경기 > 용인시": {
+      "seqno": "3612616",
+      "hospital": "모두탑365정형외과의원 수지점",
+      "title": "증원*간호과*[주 5일] [26년 3월 9일개원 ]모두탑정형외과 수지점입니다",
+      "region": "경기 > 용인시",
+      "sido": "경기",
+      "branch": "용인지점",
+      "type": "정형외과",
+      "jobs": [],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-09",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612616",
+      "seqnos": [
+        "3612616"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "서울에이스비뇨의학과의원|경기 > 성남시": {
+      "seqno": "3611027",
+      "hospital": "서울에이스비뇨의학과의원",
+      "title": "★6월 1일 개원★ [분당서현역] 서울에이스비뇨의학과 외래팀장/부팀장 & 수술실장 모집",
+      "region": "경기 > 성남시",
+      "sido": "경기",
+      "branch": "성남지점",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "",
+      "update_date": "2026-04-07",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
+      "seqnos": [
+        "3611027"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "가양제일365정형외과의원|서울 > 강서구": {
+      "seqno": "3618342",
+      "hospital": "가양제일365정형외과의원",
+      "title": "[가양역/5월 8일 개원] ●간호조무사 선생님 모십니다 / 가양제일365정형외과",
+      "region": "서울 > 강서구",
+      "sido": "서울",
+      "branch": "일산지점",
+      "type": "정형외과",
+      "jobs": [
+        "간호조무사",
+        "임상병리사",
+        "물리치료사",
+        "방사선사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618342",
+      "seqnos": [
+        "3618342",
+        "3617941",
+        "3617127",
+        "3617128"
+      ],
+      "count": 4,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "의왕탑내과의원|경기 > 의왕시": {
+      "seqno": "3618318",
+      "hospital": "의왕탑내과의원",
+      "title": "11월에 개원한 의왕시 소재 5대암 검진내과에서 간호조무사 선생님을 추가 채용합니다.",
+      "region": "경기 > 의왕시",
+      "sido": "경기",
+      "branch": "안양지점",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618318",
+      "seqnos": [
+        "3618318"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "고트의원|서울 > 서초구": {
+      "seqno": "3618293",
+      "hospital": "고트의원",
+      "title": "[강남역/신규 개원]저희 고트의원과 함께 성장할 개원 멤버를 찾습니다! (피부과, 산부인과)",
+      "region": "서울 > 서초구",
+      "sido": "서울",
+      "branch": "서초지점",
+      "type": "의원",
+      "jobs": [],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618293",
+      "seqnos": [
+        "3618293"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "서현역본튼튼365의원|경기 > 성남시": {
+      "seqno": "3618285",
+      "hospital": "서현역본튼튼365의원",
+      "title": "★6월개원★ 수인분당선 서현역본튼튼365의원에서 외래간호팀 선생님을 모십니다.",
+      "region": "경기 > 성남시",
+      "sido": "경기",
+      "branch": "성남지점",
+      "type": "의원",
+      "jobs": [
+        "원무"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618285",
+      "seqnos": [
+        "3618285",
+        "3618284"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "서울파스텔치과|서울 > 서초구": {
+      "seqno": "3618244",
+      "hospital": "서울파스텔치과",
+      "title": "★(잠원역 및 반포역 인근,신규개원,면접비지원)★서울파스텔치과 진료실스탭,알바 모집",
+      "region": "서울 > 서초구",
+      "sido": "서울",
+      "branch": "서초지점",
+      "type": "치과",
+      "jobs": [],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618244",
+      "seqnos": [
+        "3618244"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "험프리스 글로리 정형외과의원|경기 > 평택시": {
+      "seqno": "3618195",
+      "hospital": "험프리스 글로리 정형외과의원",
+      "title": "[5월 중순 개원 예정][급여 및 근무조건 조정][평택 미군부대 인근 1인 정형외과] 방사선사 선생님 모십니다.",
+      "region": "경기 > 평택시",
+      "sido": "경기",
+      "branch": "동탄지점",
+      "type": "정형외과",
+      "jobs": [
+        "방사선사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618195",
+      "seqnos": [
+        "3618195"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "주연화내과의원|서울 > 관악구": {
+      "seqno": "3614401",
+      "hospital": "주연화내과의원",
+      "title": "난곡사거리 내과에서 간호조무사 선생님 모십니다 / 신규개원",
+      "region": "서울 > 관악구",
+      "sido": "서울",
+      "branch": "남부2지점",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-13",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614401",
+      "seqnos": [
+        "3614401"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "세르테 정형외과의원|서울 > 강남구": {
+      "seqno": "3618144",
+      "hospital": "세르테 정형외과의원",
+      "title": "●[5월 개원예정]● 수술실 PA 모집합니다.(경력)",
+      "region": "서울 > 강남구",
+      "sido": "서울",
+      "branch": "강남지점",
+      "type": "정형외과",
+      "jobs": [
+        "PA"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-17",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618144",
+      "seqnos": [
+        "3618144",
+        "3618143",
+        "3618142"
+      ],
+      "count": 3,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "르본정형외과|서울 > 송파구": {
+      "seqno": "3616327",
+      "hospital": "르본정형외과",
+      "title": "[★4월 개원, 잠실역3분거리,주 4.5일제 40시간 내외 ]르본정형외과 간호팀 모집",
+      "region": "서울 > 송파구",
+      "sido": "서울",
+      "branch": "강동지점",
+      "type": "정형외과",
+      "jobs": [],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-15",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616327",
+      "seqnos": [
+        "3616327"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
+    "오산탑신경외과의원|경기 > 오산시": {
+      "seqno": "3616573",
+      "hospital": "오산탑신경외과의원",
+      "title": "2026년 1월 신규 개원  오산탑신경외과의원 물리치료사 모집",
+      "region": "경기 > 오산시",
+      "sido": "경기",
+      "branch": "동탄지점",
+      "type": "신경외과",
+      "jobs": [
+        "물리치료사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-15",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616573",
+      "seqnos": [
+        "3616573"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17"
+    },
     "제물포탑마취통증의학과의원|인천 > 미추홀구": {
       "seqno": "3617978",
       "hospital": "제물포탑마취통증의학과의원",
@@ -17,26 +302,6 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617978",
       "seqnos": [
         "3617978"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "서울에이스비뇨의학과의원|경기 > 성남시": {
-      "seqno": "3611027",
-      "hospital": "서울에이스비뇨의학과의원",
-      "title": "★6월 1일 개원★ [분당서현역] 서울에이스비뇨의학과 외래팀장/부팀장 & 수술실장 모집",
-      "region": "경기 > 성남시",
-      "sido": "경기",
-      "branch": "성남지점",
-      "type": "의원",
-      "jobs": [],
-      "deadline": "",
-      "update_date": "2026-04-08",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
-      "seqnos": [
-        "3611027"
       ],
       "count": 1,
       "status": "active",
@@ -65,54 +330,6 @@
       "status": "active",
       "last_seen": "2026-04-17"
     },
-    "험프리스 글로리 정형외과의원|경기 > 평택시": {
-      "seqno": "3617948",
-      "hospital": "험프리스 글로리 정형외과의원",
-      "title": "[5월 중순 개원 예정][평택 미군부대 인근 1인 정형외과] 방사선사 선생님 모십니다.",
-      "region": "경기 > 평택시",
-      "sido": "경기",
-      "branch": "동탄지점",
-      "type": "정형외과",
-      "jobs": [
-        "방사선사"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617948",
-      "seqnos": [
-        "3617948"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "가양제일365정형외과의원|서울 > 강서구": {
-      "seqno": "3617941",
-      "hospital": "가양제일365정형외과의원",
-      "title": "[주5일][가양역/5월 초 개원] ●임상병리사 선생님 모십니다 / 가양제일365정형외과",
-      "region": "서울 > 강서구",
-      "sido": "서울",
-      "branch": "일산지점",
-      "type": "정형외과",
-      "jobs": [
-        "임상병리사",
-        "물리치료사",
-        "방사선사"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617941",
-      "seqnos": [
-        "3617941",
-        "3617127",
-        "3617128"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
     "365홍제바른정형외과의원|서울 > 서대문구": {
       "seqno": "3616678",
       "hospital": "365홍제바른정형외과의원",
@@ -126,7 +343,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-16",
+      "update_date": "2026-04-15",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616678",
       "seqnos": [
@@ -134,248 +351,6 @@
         "3616689"
       ],
       "count": 2,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "모두탑365정형외과의원 수지점|경기 > 용인시": {
-      "seqno": "3612616",
-      "hospital": "모두탑365정형외과의원 수지점",
-      "title": "증원*간호과*[주 5일] [26년 3월 9일개원 ]모두탑정형외과 수지점입니다",
-      "region": "경기 > 용인시",
-      "sido": "경기",
-      "branch": "용인지점",
-      "type": "정형외과",
-      "jobs": [],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-10",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612616",
-      "seqnos": [
-        "3612616"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "원본재활의학과|서울 > 강북구": {
-      "seqno": "3613484",
-      "hospital": "원본재활의학과",
-      "title": "★26년5월초개원★ 미아사거리역 신규개원하는 원본재활의학과 (★주 5일)물리치료사 선생님을 모집합니다!",
-      "region": "서울 > 강북구",
-      "sido": "서울",
-      "branch": "북부지점",
-      "type": "기타",
-      "jobs": [
-        "물리치료사",
-        "간호조무사",
-        "방사선사"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-16",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3613484",
-      "seqnos": [
-        "3613484",
-        "3616733",
-        "3617174"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "은평365든든내과마취통증의학과의원|서울 > 은평구": {
-      "seqno": "3617668",
-      "hospital": "은평365든든내과마취통증의학과의원",
-      "title": "★5월 중 개원★  임상병리사[오전파트만] 선생님 모집합니다.",
-      "region": "서울 > 은평구",
-      "sido": "서울",
-      "branch": "서부지점",
-      "type": "내과",
-      "jobs": [
-        "임상병리사"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617668",
-      "seqnos": [
-        "3617668"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "365성모코끼리튼튼의원|경기 > 의왕시": {
-      "seqno": "3617566",
-      "hospital": "365성모코끼리튼튼의원",
-      "title": "의왕 신규개원) 365성모코끼리튼튼의원 임상병리",
-      "region": "경기 > 의왕시",
-      "sido": "경기",
-      "branch": "안양지점",
-      "type": "의원",
-      "jobs": [],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617566",
-      "seqnos": [
-        "3617566"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "365먹골탑정형외과의원|서울 > 중랑구": {
-      "seqno": "3614552",
-      "hospital": "365먹골탑정형외과의원",
-      "title": "(먹골역 주5일)5월 신규개원예정 정형외과 / 간호조무사 선생님 모십니다.",
-      "region": "서울 > 중랑구",
-      "sido": "서울",
-      "branch": "북부지점",
-      "type": "정형외과",
-      "jobs": [
-        "간호조무사",
-        "물리치료사",
-        "방사선사"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-14",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614552",
-      "seqnos": [
-        "3614552",
-        "3614558",
-        "3614561"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "엠앤비여성병원|인천 > 계양구": {
-      "seqno": "3614156",
-      "hospital": "엠앤비여성병원",
-      "title": "요양병원 간호사 모십니다.(6월개원)",
-      "region": "인천 > 계양구",
-      "sido": "인천",
-      "branch": "인천3지점",
-      "type": "병원",
-      "jobs": [
-        "간호사"
-      ],
-      "deadline": "",
-      "update_date": "2026-04-13",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614156",
-      "seqnos": [
-        "3614156"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "르본정형외과|서울 > 송파구": {
-      "seqno": "3616327",
-      "hospital": "르본정형외과",
-      "title": "[★4월 개원, 잠실역3분거리,주 5일제 ]르본정형외과 간호팀 모집",
-      "region": "서울 > 송파구",
-      "sido": "서울",
-      "branch": "강동지점",
-      "type": "정형외과",
-      "jobs": [],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-15",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616327",
-      "seqnos": [
-        "3616327"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "문정연세내과|서울 > 송파구": {
-      "seqno": "3617473",
-      "hospital": "문정연세내과",
-      "title": "◈[문정역,장지역/문정연세내과/신규개원]◈ 간호조무사 정규직 모집합니다 (내과 및 내시경 경력자 우대합니다)",
-      "region": "서울 > 송파구",
-      "sido": "서울",
-      "branch": "강동지점",
-      "type": "내과",
-      "jobs": [
-        "간호조무사"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617473",
-      "seqnos": [
-        "3617473"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "고트의원|서울 > 서초구": {
-      "seqno": "3617468",
-      "hospital": "고트의원",
-      "title": "[강남역/신규 개원]저희 고트의원과 함께 성장할 개원 멤버를 찾습니다! (피부과, 산부인과)",
-      "region": "서울 > 서초구",
-      "sido": "서울",
-      "branch": "서초지점",
-      "type": "의원",
-      "jobs": [],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617468",
-      "seqnos": [
-        "3617468"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "서울파스텔치과|서울 > 서초구": {
-      "seqno": "3617424",
-      "hospital": "서울파스텔치과",
-      "title": "★(잠원역 및 반포역 인근,신규개원,면접비지원)★서울파스텔치과 진료실스탭,알바 모집",
-      "region": "서울 > 서초구",
-      "sido": "서울",
-      "branch": "서초지점",
-      "type": "치과",
-      "jobs": [],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617424",
-      "seqnos": [
-        "3617424"
-      ],
-      "count": 1,
-      "status": "active",
-      "last_seen": "2026-04-17"
-    },
-    "세르테 정형외과의원|서울 > 강남구": {
-      "seqno": "3617330",
-      "hospital": "세르테 정형외과의원",
-      "title": "●[5월 개원예정]● 수술실 PA 모집합니다.(경력)",
-      "region": "서울 > 강남구",
-      "sido": "서울",
-      "branch": "강남지점",
-      "type": "정형외과",
-      "jobs": [
-        "PA"
-      ],
-      "deadline": "채용시까지",
-      "update_date": "2026-04-17",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617330",
-      "seqnos": [
-        "3617330",
-        "3617328",
-        "3617327"
-      ],
-      "count": 3,
       "status": "active",
       "last_seen": "2026-04-17"
     }
