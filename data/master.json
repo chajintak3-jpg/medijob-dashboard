@@ -65,7 +65,7 @@
     "가양제일365정형외과의원|서울 > 강서구": {
       "seqno": "3618342",
       "hospital": "가양제일365정형외과의원",
-      "title": "[가양역/5월 8일 개원] ●간호조무사 선생님 모십니다 / 가양제일365정형외과",
+      "title": "[가양역/5월 초 개원] ●원무과 선생님 모십니다 / 가양제일365정형외과",
       "region": "서울 > 강서구",
       "sido": "서울",
       "branch": "일산지점",
@@ -469,6 +469,29 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3586343",
       "seqnos": [
         "3586343"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-17",
+      "first_seen": "2026-04-17"
+    },
+    "똑똑연세내과|서울 > 송파구": {
+      "seqno": "3603344",
+      "hospital": "똑똑연세내과",
+      "title": "[가락동] 신규 개원 검진내과 경력직 간호조무사 선생님 모십니다!",
+      "region": "서울 > 송파구",
+      "sido": "서울",
+      "branch": "강동지점",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "",
+      "update_date": "2026-03-27",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3603344",
+      "seqnos": [
+        "3603344"
       ],
       "count": 1,
       "status": "active",
