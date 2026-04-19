@@ -12,7 +12,7 @@
         "임상병리사"
       ],
       "deadline": "2026-07-01",
-      "update_date": "2026-04-01",
+      "update_date": "2026-03-31",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3617668",
       "seqnos": [
@@ -32,7 +32,7 @@
       "type": "정형외과",
       "jobs": [],
       "deadline": "채용시까지",
-      "update_date": "2026-04-10",
+      "update_date": "2026-04-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612616",
       "seqnos": [
@@ -52,7 +52,7 @@
       "type": "의원",
       "jobs": [],
       "deadline": "2026-05-07",
-      "update_date": "2026-04-08",
+      "update_date": "2026-04-07",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
       "seqnos": [
@@ -343,7 +343,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-16",
+      "update_date": "2026-04-15",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616678",
       "seqnos": [
@@ -443,7 +443,7 @@
         "간호조무사"
       ],
       "deadline": "2026-04-27",
-      "update_date": "2026-03-28",
+      "update_date": "2026-03-27",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3603344",
       "seqnos": [
@@ -481,7 +481,7 @@
     "365성모코끼리튼튼의원|경기 > 의왕시": {
       "seqno": "3618734",
       "hospital": "365성모코끼리튼튼의원",
-      "title": "의왕 신규개원) 365성모코끼리튼튼의원 모달 물리치료사 알바 선생님 모십니다.",
+      "title": "의왕 신규개원) 365성모코끼리튼튼의원 임상병리",
       "region": "경기 > 의왕시",
       "sido": "경기",
       "branch": "안양지점",
@@ -590,7 +590,7 @@
         "간호조무사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-16",
+      "update_date": "2026-04-15",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3616733",
       "seqnos": [
@@ -638,7 +638,7 @@
         "임상병리사"
       ],
       "deadline": "2026-05-03",
-      "update_date": "2026-04-19",
+      "update_date": "2026-04-18",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618999",
       "seqnos": [
@@ -666,7 +666,7 @@
         "원무"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-19",
+      "update_date": "2026-04-18",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618955",
       "seqnos": [
@@ -722,7 +722,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-03-21",
+      "update_date": "2026-03-20",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3598694",
       "seqnos": [
@@ -756,7 +756,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-01",
+      "update_date": "2026-03-31",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3606187",
       "seqnos": [
@@ -770,6 +770,35 @@
       "status": "active",
       "last_seen": "2026-04-19",
       "first_seen": "2026-04-18"
+    },
+    "모두튼튼365의원 일산중산점|경기 > 고양시": {
+      "seqno": "3619118",
+      "hospital": "모두튼튼365의원 일산중산점",
+      "title": "[주 5일][5월 중순 개원]  ●원무과 선생님 모십니다. / 모두튼튼365의원 일산중산점",
+      "region": "경기 > 고양시",
+      "sido": "경기",
+      "branch": "일산지점",
+      "type": "의원",
+      "jobs": [
+        "원무",
+        "임상병리사",
+        "방사선사",
+        "물리치료사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-19",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3619118",
+      "seqnos": [
+        "3619118",
+        "3617113",
+        "3617108",
+        "3617107"
+      ],
+      "count": 4,
+      "status": "active",
+      "last_seen": "2026-04-19",
+      "first_seen": "2026-04-19"
     }
   },
   "last_updated": "2026-04-19"
