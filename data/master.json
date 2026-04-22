@@ -25,14 +25,14 @@
     "모두탑365정형외과의원 수지점|경기 > 용인시": {
       "seqno": "3612616",
       "hospital": "모두탑365정형외과의원 수지점",
-      "title": "*원무과*[주 5일] [26년 3월9일 개원]모두탑정형외과 수지점입니다",
+      "title": "증원*간호과*[주 5일] [26년 3월 9일개원 ]모두탑정형외과 수지점입니다",
       "region": "경기 > 용인시",
       "sido": "경기",
       "branch": "용인지점",
       "type": "정형외과",
       "jobs": [],
       "deadline": "채용시까지",
-      "update_date": "2026-04-22",
+      "update_date": "2026-04-21",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3612616",
       "seqnos": [
@@ -357,7 +357,7 @@
     "고덕삼성본재활의학과의원|서울 > 강동구": {
       "seqno": "3591965",
       "hospital": "고덕삼성본재활의학과의원",
-      "title": "★신규개원★주5일근무+연3일 휴가지급[고덕역,강동,하남]원무,접수 구인(정형외과).",
+      "title": "★신규개원★주5일근무+연3일 휴가지급[고덕역,강동,하남]방사선사 구인(정형외과).",
       "region": "서울 > 강동구",
       "sido": "서울",
       "branch": "강동지점",
@@ -457,7 +457,7 @@
     "열린숨이비인후과의원|경기 > 남양주시": {
       "seqno": "3618747",
       "hospital": "열린숨이비인후과의원",
-      "title": "[별내역] 5월신규개원★ 토요일 or 일요일 아르바이트 간호조무사선생님 구합니다.",
+      "title": "[[별내역]] 5월 신규개원 ★열린숨이비인후과★에서 함께할 간호조무사 선생님을 모십니다",
       "region": "경기 > 남양주시",
       "sido": "경기",
       "branch": "남양주지점",
@@ -466,7 +466,7 @@
         "간호조무사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-18",
+      "update_date": "2026-04-22",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618747",
       "seqnos": [
@@ -475,7 +475,7 @@
       ],
       "count": 2,
       "status": "active",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-22",
       "first_seen": "2026-04-18"
     },
     "365성모코끼리튼튼의원|경기 > 의왕시": {
@@ -666,7 +666,7 @@
         "원무"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-19",
+      "update_date": "2026-04-18",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618955",
       "seqnos": [
@@ -741,7 +741,7 @@
     "화정바로365정형외과|경기 > 고양시": {
       "seqno": "3606187",
       "hospital": "화정바로365정형외과",
-      "title": "[화정역 30초/신규개원/신입환영] 방사선사 선생님 모십니다.",
+      "title": "[화정역 30초/신규개원/신입환영] 원무,접수,코디 선생님 모십니다.",
       "region": "경기 > 고양시",
       "sido": "경기",
       "branch": "일산지점",
@@ -756,7 +756,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-01",
+      "update_date": "2026-03-31",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3606187",
       "seqnos": [
@@ -937,7 +937,7 @@
         "간호조무사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-04-21",
+      "update_date": "2026-04-22",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3619543",
       "seqnos": [
@@ -949,7 +949,7 @@
       ],
       "count": 5,
       "status": "active",
-      "last_seen": "2026-04-21",
+      "last_seen": "2026-04-22",
       "first_seen": "2026-04-20"
     },
     "태평 최선마취통증의학과|경기 > 성남시": {
@@ -1167,6 +1167,118 @@
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3614156",
       "seqnos": [
         "3614156"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-22",
+      "first_seen": "2026-04-22"
+    },
+    "온세솔대요양원|경기 > 수원시": {
+      "seqno": "3621635",
+      "hospital": "온세솔대요양원",
+      "title": "개원예정인 요양원에서 간호(조무)사님을 모십니다.",
+      "region": "경기 > 수원시",
+      "sido": "경기",
+      "branch": "수원지점",
+      "type": "기타",
+      "jobs": [],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-22",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3621635",
+      "seqnos": [
+        "3621635"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-22",
+      "first_seen": "2026-04-22"
+    },
+    "수원기쁨내과|경기 > 수원시": {
+      "seqno": "3621525",
+      "hospital": "수원기쁨내과",
+      "title": "수원 당수지구 신규개원 검진내과에서 간호조무사님을 구인합니다.검진내과경험자 우대",
+      "region": "경기 > 수원시",
+      "sido": "경기",
+      "branch": "수원지점",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "2026-07-22",
+      "update_date": "2026-04-22",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3621525",
+      "seqnos": [
+        "3621525"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-22",
+      "first_seen": "2026-04-22"
+    },
+    "이음내과|경기 > 안양시": {
+      "seqno": "3621531",
+      "hospital": "이음내과",
+      "title": "[2026년 6월 신규개원] 이음내과의원에서  간호조무사 실장님을 모집합니다",
+      "region": "경기 > 안양시",
+      "sido": "경기",
+      "branch": "안양지점",
+      "type": "내과",
+      "jobs": [
+        "간호조무사"
+      ],
+      "deadline": "2026-06-24",
+      "update_date": "2026-04-22",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3621531",
+      "seqnos": [
+        "3621531"
+      ],
+      "count": 1,
+      "status": "active",
+      "last_seen": "2026-04-22",
+      "first_seen": "2026-04-22"
+    },
+    "서울투명안과의원|서울 > 마포구": {
+      "seqno": "3603267",
+      "hospital": "서울투명안과의원",
+      "title": "[서울투명안과] 원무과 선생님을 모십니다 (26년 3월 개원)",
+      "region": "서울 > 마포구",
+      "sido": "서울",
+      "branch": "서부지점",
+      "type": "의원",
+      "jobs": [
+        "원무"
+      ],
+      "deadline": "2026-04-26",
+      "update_date": "2026-03-27",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3603267",
+      "seqnos": [
+        "3603267",
+        "3603268"
+      ],
+      "count": 2,
+      "status": "active",
+      "last_seen": "2026-04-22",
+      "first_seen": "2026-04-22"
+    },
+    "서울최고이비인후과|서울 > 광진구": {
+      "seqno": "3621202",
+      "hospital": "서울최고이비인후과",
+      "title": "추가구인!!(4월말개원)건대입구역  365진료 서울최고이비인후과에서 간호인력구인합니다.",
+      "region": "서울 > 광진구",
+      "sido": "서울",
+      "branch": "중부지점",
+      "type": "기타",
+      "jobs": [],
+      "deadline": "채용시까지",
+      "update_date": "2026-04-22",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3621202",
+      "seqnos": [
+        "3621202"
       ],
       "count": 1,
       "status": "active",
