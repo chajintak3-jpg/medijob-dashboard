@@ -52,7 +52,7 @@
       "type": "의원",
       "jobs": [],
       "deadline": "2026-06-08",
-      "update_date": "2026-05-08",
+      "update_date": "2026-05-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611027",
       "seqnos": [
@@ -60,7 +60,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10"
+      "last_seen": "2026-05-11"
     },
     "가양제일365정형외과의원|서울 > 강서구": {
       "seqno": "3618342",
@@ -305,7 +305,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10"
+      "last_seen": "2026-05-11"
     },
     "경희예스한의원|서울 > 동대문구": {
       "seqno": "3610499",
@@ -371,7 +371,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-09",
+      "update_date": "2026-05-10",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3591965",
       "seqnos": [
@@ -384,7 +384,7 @@
       ],
       "count": 6,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-17"
     },
     "성모원탑365신경외과의원|서울 > 강북구": {
@@ -407,7 +407,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-17"
     },
     "열린숨이비인후과의원|경기 > 남양주시": {
@@ -496,7 +496,7 @@
         "방사선사"
       ],
       "deadline": "2026-08-10",
-      "update_date": "2026-05-10",
+      "update_date": "2026-05-11",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618687",
       "seqnos": [
@@ -506,7 +506,7 @@
       ],
       "count": 3,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-18"
     },
     "원본재활의학과|서울 > 강북구": {
@@ -553,33 +553,6 @@
       "count": 1,
       "status": "active",
       "last_seen": "2026-05-08",
-      "first_seen": "2026-04-18"
-    },
-    "브레인앤슬립의원|서울 > 강남구": {
-      "seqno": "3618999",
-      "hospital": "브레인앤슬립의원",
-      "title": "브레인앤슬립의원 IV 간호사/간호조무사님 모십니다 (6월 중순 개원)",
-      "region": "서울 > 강남구",
-      "sido": "서울",
-      "branch": "강남지점",
-      "type": "의원",
-      "jobs": [
-        "간호조무사",
-        "간호사",
-        "임상병리사"
-      ],
-      "deadline": "2026-05-03",
-      "update_date": "2026-04-19",
-      "is_closed": false,
-      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3618999",
-      "seqnos": [
-        "3618999",
-        "3619002",
-        "3619001"
-      ],
-      "count": 3,
-      "status": "active",
-      "last_seen": "2026-04-20",
       "first_seen": "2026-04-18"
     },
     "모두튼튼365의원 군산점|전북 > 군산시": {
@@ -666,7 +639,7 @@
       ],
       "count": 6,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-18"
     },
     "화정바로365정형외과|경기 > 고양시": {
@@ -699,7 +672,7 @@
       ],
       "count": 5,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-18"
     },
     "모두튼튼365의원 일산중산점|경기 > 고양시": {
@@ -734,7 +707,7 @@
     "압구정정형외과의원|서울 > 강남구": {
       "seqno": "3619198",
       "hospital": "압구정정형외과의원",
-      "title": "(압구정역) 신규개원, 압구정정형외과에서 간호조무사 선생님 구인합니다.",
+      "title": "(압구정역) 신규개원, 압구정정형외과에서 원무과 선생님 구인합니다.",
       "region": "서울 > 강남구",
       "sido": "서울",
       "branch": "강남지점",
@@ -753,7 +726,7 @@
       ],
       "count": 2,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-20"
     },
     "삼성행신정형외과의원|경기 > 고양시": {
@@ -814,7 +787,7 @@
         "방사선사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-08",
+      "update_date": "2026-05-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3611359",
       "seqnos": [
@@ -822,7 +795,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-20"
     },
     "연세엄지척마취통증의학과의원|서울 > 성동구": {
@@ -868,7 +841,7 @@
         "간호조무사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-08",
+      "update_date": "2026-05-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3619543",
       "seqnos": [
@@ -880,7 +853,7 @@
       ],
       "count": 5,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-20"
     },
     "태평 최선마취통증의학과|경기 > 성남시": {
@@ -897,7 +870,7 @@
         "물리치료사"
       ],
       "deadline": "2026-05-30",
-      "update_date": "2026-05-08",
+      "update_date": "2026-05-09",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3620161",
       "seqnos": [
@@ -907,7 +880,7 @@
       ],
       "count": 3,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-21"
     },
     "서울아산빛정신건강의학과|서울 > 동대문구": {
@@ -997,7 +970,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-21"
     },
     "나스정형외과|서울 > 동대문구": {
@@ -1026,7 +999,7 @@
       ],
       "count": 4,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-21"
     },
     "별내바른365정형외과|경기 > 남양주시": {
@@ -1055,7 +1028,7 @@
       ],
       "count": 4,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-21"
     },
     "이수탑정형외과|서울 > 서초구": {
@@ -1070,7 +1043,7 @@
         "원무"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-02",
+      "update_date": "2026-05-03",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3620595",
       "seqnos": [
@@ -1078,7 +1051,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-21"
     },
     "엠앤비여성병원|인천 > 계양구": {
@@ -1326,7 +1299,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-04-23"
     },
     "동탄삼성내과의원|경기 > 화성시": {
@@ -1581,7 +1554,7 @@
       ],
       "count": 5,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-02"
     },
     "운정바른속내과|경기 > 파주시": {
@@ -1596,7 +1569,7 @@
         "간호조무사"
       ],
       "deadline": "2026-07-02",
-      "update_date": "2026-05-02",
+      "update_date": "2026-05-03",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3627399",
       "seqnos": [
@@ -1604,7 +1577,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-02"
     },
     "종로내과의원|서울 > 종로구": {
@@ -1736,7 +1709,7 @@
         "접수"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-04",
+      "update_date": "2026-05-05",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3628248",
       "seqnos": [
@@ -1749,7 +1722,7 @@
       ],
       "count": 6,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-04"
     },
     "에이블재활병원|경기 > 수원시": {
@@ -1904,7 +1877,7 @@
         "임상병리사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-07",
+      "update_date": "2026-05-08",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3630166",
       "seqnos": [
@@ -1912,7 +1885,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-07"
     },
     "✔️ 고려마디탄탄의원|": {
@@ -1927,7 +1900,7 @@
         "임상병리사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-07",
+      "update_date": "2026-05-08",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3630165",
       "seqnos": [
@@ -1935,7 +1908,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-07"
     },
     "아바성형외과|서울 > 서초구": {
@@ -1995,7 +1968,7 @@
         "물리치료사"
       ],
       "deadline": "채용시까지",
-      "update_date": "2026-05-07",
+      "update_date": "2026-05-08",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3630089",
       "seqnos": [
@@ -2003,7 +1976,7 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-08"
     },
     "김포리온한방병원|경기 > 김포시": {
@@ -2041,7 +2014,7 @@
         "원무"
       ],
       "deadline": "2026-06-10",
-      "update_date": "2026-05-10",
+      "update_date": "2026-05-11",
       "is_closed": false,
       "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3631972",
       "seqnos": [
@@ -2049,9 +2022,40 @@
       ],
       "count": 1,
       "status": "active",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-11",
       "first_seen": "2026-05-10"
+    },
+    "모두탑365정형외과|경기 > 평택시": {
+      "seqno": "3632010",
+      "hospital": "모두탑365정형외과",
+      "title": "[고덕 국제신도시 /7월 초 개원] ●원무과 선생님 모십니다 / 모두탑365정형외과 고덕점",
+      "region": "경기 > 평택시",
+      "sido": "경기",
+      "branch": "동탄지점",
+      "type": "정형외과",
+      "jobs": [
+        "원무",
+        "방사선사",
+        "간호조무사",
+        "물리치료사"
+      ],
+      "deadline": "채용시까지",
+      "update_date": "2026-05-11",
+      "is_closed": false,
+      "url": "https://www.medijob.cc/com/cpn/com_cpn_100_view_02?recruitSeqno=3632010",
+      "seqnos": [
+        "3632010",
+        "3632009",
+        "3632005",
+        "3632006",
+        "3632008",
+        "3632004"
+      ],
+      "count": 6,
+      "status": "active",
+      "last_seen": "2026-05-11",
+      "first_seen": "2026-05-11"
     }
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-05-11"
 }
